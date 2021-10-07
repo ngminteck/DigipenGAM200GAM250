@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/MossWall_BG.dds",
+    "Sprite_Name": "MossWall_BG",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "MOSS_BG",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/ValkyrieSpriteSheet.dds",
+    "Sprite_Name": "ValkyrieSpriteSheet",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "LEFT_ATTACK",
+        "Frame": {
+          "x": 5,
+          "y": 5,
+          "w": 200,
+          "h": 200,
+          "numframes": 6,
+          "interval": [0.2,0.2,0.2,0.2,0.2,0.2]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_ATTACK",
+        "Frame": {
+          "x": 205,
+          "y": 5,
+          "w": -200,
+          "h": 200,
+          "numframes": 6,
+          "interval": [0.2,0.2,0.2,0.2,0.2,0.2]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_DASH_ATTACK",
+        "Frame": {
+          "x": 225,
+          "y": 210,
+          "w": -220,
+          "h": 220,
+          "numframes": 6,
+          "interval": [0.2,0.2,0.2,0.2,0.2,0.2]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_DASH_ATTACK",
+        "Frame": {
+          "x": 5,
+          "y": 210,
+          "w": 220,
+          "h": 220,
+          "numframes": 6,
+          "interval": [0.2,0.2,0.2,0.2,0.2,0.2]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_IDLE",
+        "Frame": {
+          "x": 5,
+          "y": 210,
+          "w": 220,
+          "h": 220,
+          "numframes": 6,
+          "interval": [0.2,0.2,0.2,0.2,0.2,0.2]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_IDLE",
+        "Frame": {
+          "x": 225,
+          "y": 210,
+          "w": -220,
+          "h": 220,
+          "numframes": 6,
+          "interval": [0.2,0.2,0.2,0.2,0.2,0.2]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_WALK",
+        "Frame": {
+          "x": 5,
+          "y": 435,
+          "w": 200,
+          "h": 200,
+          "numframes": 6,
+          "interval": [0.2,0.2,0.2,0.2,0.2,0.2]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_WALK",
+        "Frame": {
+          "x": 205,
+          "y": 435,
+          "w": -200,
+          "h": 200,
+          "numframes": 6,
+          "interval": [0.2,0.2,0.2,0.2,0.2,0.2]
+        }
+      }
+    ]
+  }
+}

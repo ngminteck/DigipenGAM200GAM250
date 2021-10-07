@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/credits text3.dds",
+        "Sprite_Name": "credits text3",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "credits text3",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1417244773,
+                    "h": 574234658,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

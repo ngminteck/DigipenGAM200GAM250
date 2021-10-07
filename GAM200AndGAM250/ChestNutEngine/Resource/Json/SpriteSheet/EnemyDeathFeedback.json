@@ -1,0 +1,22 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/EnemyDeathFeedback_Spritesheet.dds",
+        "Sprite_Name": "EnemyDeathFeedback_Spritesheet",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "DEATH",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 307,
+                    "h": 281,
+                    "numframes": 13,
+                    "interval": [ 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05,
+                                  0.05, 0.05, 0.05, 0.05, 0.05, 0.05 ]
+                }
+            }
+        ]
+    }
+}

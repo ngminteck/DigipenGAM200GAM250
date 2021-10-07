@@ -1,0 +1,21 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/EnemyThrowFeedback_Spritesheet.dds",
+        "Sprite_Name": "EnemyThrowFeedback_Spritesheet",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "THROW",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 525,
+                    "h": 70,
+                    "numframes": 7,
+                    "interval": [ 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05 ]
+                }
+            }
+        ]
+    }
+}

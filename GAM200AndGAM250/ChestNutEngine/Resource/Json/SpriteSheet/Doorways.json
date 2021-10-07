@@ -1,0 +1,54 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Doorways.dds",
+    "Sprite_Name": "Doorways",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "LEFT_DOORWAY_OFF",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 289,
+          "h": 343,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_DOORWAY_OFF",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 289,
+          "h": 343,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_DOORWAY_ON",
+        "Frame": {
+          "x": 289,
+          "y": 0,
+          "w": 289,
+          "h": 343,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_DOORWAY_ON",
+        "Frame": {
+          "x": 289,
+          "y": 0,
+          "w": 289,
+          "h": 343,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

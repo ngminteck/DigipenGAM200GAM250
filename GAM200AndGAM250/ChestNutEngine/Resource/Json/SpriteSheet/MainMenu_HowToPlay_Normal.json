@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/MainMenu_HowToPlay_Normal.dds",
+        "Sprite_Name": "MainMenu_HowToPlay_Normal",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "MainMenu_HowToPlay_Normal",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 604,
+                    "h": 244,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,129 @@
+[Window][Right Dock]
+Pos=1024,0
+Size=256,560
+Collapsed=0
+
+[Window][Left Dock]
+Pos=0,0
+Size=256,560
+Collapsed=0
+
+[Window][Bottom Middle Dock]
+Pos=256,560
+Size=768,240
+Collapsed=0
+
+[Window][Console]
+Pos=256,579
+Size=768,221
+Collapsed=0
+DockId=0x28ADA3D7,1
+
+[Window][Bottom Right Dock]
+Pos=1024,560
+Size=256,240
+Collapsed=0
+
+[Window][Bottom Left Dock]
+Pos=0,560
+Size=256,240
+Collapsed=0
+
+[Window][Debug##Default]
+Pos=530,137
+Size=400,400
+Collapsed=0
+
+[Window][ImGui Demo]
+Pos=256,579
+Size=768,221
+Collapsed=0
+DockId=0x28ADA3D7,0
+
+[Window][World Outliner]
+Pos=0,19
+Size=256,541
+Collapsed=0
+DockId=0xC7B8B048,0
+
+[Window][Directory]
+Pos=0,579
+Size=256,221
+Collapsed=0
+DockId=0x6018283A,0
+
+[Window][Asset]
+Pos=256,579
+Size=768,221
+Collapsed=0
+DockId=0x28ADA3D7,0
+
+[Window][Inspector]
+Pos=1024,19
+Size=256,541
+Collapsed=0
+DockId=0xA8286467,0
+
+[Window][Performance Viewer]
+Pos=1024,579
+Size=256,221
+Collapsed=0
+DockId=0x69CA98BD,0
+
+[Window][Default Prefab]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Surtur]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Default Background]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Default Player Character]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Default Static Platform]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Valkyrie]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Static_Platform3]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Static_Platform2]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Static_Platform1]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Window][Surtur(2)]
+Pos=256,0
+Size=768,560
+Collapsed=0
+
+[Docking][Data]
+DockSpace ID=0x28ADA3D7 Pos=256,579 Size=768,221 CentralNode=1 SelectedTab=0xF9BEF62A
+DockSpace ID=0x6018283A Pos=0,579 Size=256,221 CentralNode=1 SelectedTab=0xC489C679
+DockSpace ID=0x69CA98BD Pos=1024,579 Size=256,221 CentralNode=1 SelectedTab=0x237E9FF3
+DockSpace ID=0xA8286467 Pos=1024,19 Size=256,541 CentralNode=1 SelectedTab=0xF02CD328
+DockSpace ID=0xC7B8B048 Pos=0,19 Size=256,541 CentralNode=1 SelectedTab=0x52C601CB
+

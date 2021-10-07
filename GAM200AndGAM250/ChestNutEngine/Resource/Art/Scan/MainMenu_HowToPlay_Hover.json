@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/MainMenu_HowToPlay_Hover.dds",
+        "Sprite_Name": "MainMenu_HowToPlay_Hover",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "MainMenu_HowToPlay_Hover",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 645,
+                    "h": 246,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

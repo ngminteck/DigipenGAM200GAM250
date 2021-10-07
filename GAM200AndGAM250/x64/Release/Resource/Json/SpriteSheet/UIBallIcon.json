@@ -1,0 +1,120 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/UIBallIcontest.dds",
+    "Sprite_Name": "UIBallIcon",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "BarStart",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 14 ,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "BarFill",
+        "Frame": {
+          "x": 15,
+          "y": 0,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "Ball01",
+        "Frame": {
+          "x": 0,
+          "y": 128,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "Ball02",
+        "Frame": {
+          "x": 128,
+          "y": 128,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "Ball03",
+        "Frame": {
+          "x": 256,
+          "y": 128,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "Ball04",
+        "Frame": {
+          "x": 384,
+          "y": 128,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "Ball05",
+        "Frame": {
+          "x": 512,
+          "y": 128,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "Ball06",
+        "Frame": {
+          "x": 640,
+          "y": 128,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "Ball07",
+        "Frame": {
+          "x": 768,
+          "y": 128,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "Ball08",
+        "Frame": {
+          "x": 896,
+          "y": 128,
+          "w": 128,
+          "h": 128,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

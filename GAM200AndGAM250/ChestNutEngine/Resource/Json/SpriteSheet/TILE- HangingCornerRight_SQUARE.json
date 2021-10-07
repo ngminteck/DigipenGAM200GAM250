@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/TILE- HangingCornerRight_SQUARE.dds",
+    "Sprite_Name": "TILE- HangingCornerRight_SQUARE",
+     "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "TILE-HANGINGCORNERRIGHTSQUARE",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 93,
+          "h": 104,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

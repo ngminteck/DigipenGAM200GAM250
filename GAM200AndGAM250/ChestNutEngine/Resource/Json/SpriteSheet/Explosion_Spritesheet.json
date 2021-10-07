@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Boss/Explosion_Spritesheet.dds",
+        "Sprite_Name": "Explosion_Spritesheet",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Explosion_Spritesheet",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 256,
+                    "h": 256,
+                    "numframes": 9,
+                    "interval": [
+                        0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06
+                    ]
+                }
+            }
+        ]
+    }
+}

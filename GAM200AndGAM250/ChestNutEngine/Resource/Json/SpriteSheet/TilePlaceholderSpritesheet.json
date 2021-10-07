@@ -1,0 +1,21 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/TilePlaceholder.dds",
+        "Sprite_Name": "TilePlaceholder",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "PLACEHOLD",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            }
+        ]
+    }
+}

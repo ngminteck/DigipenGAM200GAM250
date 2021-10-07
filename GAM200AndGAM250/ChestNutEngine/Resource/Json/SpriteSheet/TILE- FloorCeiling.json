@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/TILE- FloorCeiling.dds",
+    "Sprite_Name": "TILE- FloorCeiling",
+     "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "TILE-FLOORCEILING",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 103,
+          "h": 104,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

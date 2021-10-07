@@ -1,0 +1,46 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "Background",
+        "prefab_name_key": "Volume1",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 200.0,
+                "m_Scale.y": 400.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 0.0,
+                "m_Translate.y": 0.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "ControlMenu_Bar01",
+                "Texture_Name": "ControlMenu_Bar01",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": true,
+                "Layer": 4
+            },
+            {
+                "ComponentType": "ButtonComponent",
+                "isHovered": false,
+                "Active Texture": "",
+                "Inactive Texture": "",
+                "Button ID": 0,
+                "Trigger Type": 0,
+                "Game State": "",
+                "Menu ID": 0,
+                "isMenu": false,
+                "Next Menu": 0,
+                "Section ID": 0,
+                "Icon": -1,
+                "Navigate": "NO AUDIO",
+                "Enter": "NO AUDIO"
+            }
+        ]
+    }
+}

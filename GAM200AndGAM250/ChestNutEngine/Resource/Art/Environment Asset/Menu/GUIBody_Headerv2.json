@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/GUIBody_Headerv2.dds",
+        "Sprite_Name": "GUIBody_Headerv2",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "GUIBody_Headerv2",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 3122,
+                    "h": 312,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

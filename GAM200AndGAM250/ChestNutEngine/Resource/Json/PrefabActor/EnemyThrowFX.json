@@ -1,0 +1,49 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "Custom",
+        "prefab_name_key": "EnemyThrowFX",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 1.0,
+                "m_Scale.y": 1.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 0.0,
+                "m_Translate.y": 0.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "AABBComponent",
+                "m_aabbScale.x": 1.0,
+                "m_aabbScale.y": 1.0,
+                "m_max.x": 0.0,
+                "m_max.y": 0.0,
+                "m_min.x": 0.0,
+                "m_min.y": 0.0,
+                "m_offset.x": 0.0,
+                "m_offset.y": 0.0,
+                "m_rect.0.x": 0.0,
+                "m_rect.0.y": 0.0,
+                "m_rect.1.x": 0.0,
+                "m_rect.1.y": 0.0,
+                "m_rect.2.x": 0.0,
+                "m_rect.2.y": 0.0,
+                "m_rect.3.x": 0.0,
+                "m_rect.3.y": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "EnemyThrowFeedback_Spritesheet",
+                "Texture_Name": "THROW",
+                "Animated_Texture": true,
+                "Orthogonal_Camera": false,
+                "Layer": 2
+            }
+        ]
+    }
+}

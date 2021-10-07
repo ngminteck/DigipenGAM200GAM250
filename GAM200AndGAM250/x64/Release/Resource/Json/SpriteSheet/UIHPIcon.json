@@ -1,0 +1,32 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/UIHPIcon.dds",
+    "Sprite_Name": "UIHPIcon",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "UIHPLarge",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 63,
+          "h": 129,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "UIHPSmall",
+        "Frame": {
+          "x": 252,
+          "y": 0,
+          "w": 63,
+          "h": 129,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

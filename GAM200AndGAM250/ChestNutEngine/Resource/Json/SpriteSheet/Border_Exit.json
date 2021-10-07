@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Border_Exit.dds",
+        "Sprite_Name": "Border_Exit",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Border_Exit",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 818,
+                    "h": 708,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

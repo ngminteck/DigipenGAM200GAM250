@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Resume Game.dds",
+        "Sprite_Name": "Resume Game",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Resume Game",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 3896,
+                    "h": 1888,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

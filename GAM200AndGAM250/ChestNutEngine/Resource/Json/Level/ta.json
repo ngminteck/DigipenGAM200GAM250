@@ -1,0 +1,243 @@
+{
+    "JsonFileType": "Level",
+    "SceneActor": [
+        {
+            "scene_actor_prefab_type_key": "Surtur",
+            "path_key": "Resource/Json/PrefabActor/Surtur.json",
+            "object_type_key": "Player",
+            "scene_actor_name_key": "Surtur",
+            "active": true,
+            "m_Pos.x": 0.0,
+            "m_Pos.y": 0.0,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 3.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 0.2,
+            "m_aabbScale.y": 0.33,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 2,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0,
+            "ComponentType": "AudioComponent",
+            "audioMap": [
+                {
+                    "Path": "Resource/Audio/slash1.wav",
+                    "Volume": 0.0,
+                    "Loop": false,
+                    "State": "ATTACK1"
+                },
+                {
+                    "Path": "Resource/Audio/slash2.wav",
+                    "Volume": 0.0,
+                    "Loop": false,
+                    "State": "ATTACK2"
+                },
+                {
+                    "Path": "Resource/Audio/slash3.wav",
+                    "Volume": 0.0,
+                    "Loop": false,
+                    "State": "ATTACK3"
+                },
+                {
+                    "Path": "Resource/Audio/slash3.wav",
+                    "Volume": 0.0,
+                    "Loop": false,
+                    "State": "BIGPUNCH"
+                },
+                {
+                    "Path": "Resource/Audio/Dash.wav",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "DASH"
+                },
+                {
+                    "Path": "Resource/Audio/Death.wav",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "DIE"
+                },
+                {
+                    "Path": "NO AUDIO",
+                    "Volume": 0.0,
+                    "Loop": false,
+                    "State": "FALL"
+                },
+                {
+                    "Path": "Resource/Audio/UI_press.wav",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "HURT"
+                },
+                {
+                    "Path": "NO AUDIO",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "IDLE"
+                },
+                {
+                    "Path": "Resource/Audio/JumpTakeoff.wav",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "JUMP"
+                },
+                {
+                    "Path": "Resource/Audio/slash1.wav",
+                    "Volume": 0.0,
+                    "Loop": false,
+                    "State": "JUMPATTACK"
+                },
+                {
+                    "Path": "Resource/Audio/JumpLanding.wav",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "LAND"
+                },
+                {
+                    "Path": "",
+                    "Volume": 0.0,
+                    "Loop": false,
+                    "State": "WALK"
+                }
+            ],
+            "cam_pos_x": 0.0,
+            "cam_pos_y": 0.0,
+            "cam_pos_z": 10.0,
+            "cam_front_x": 0.0,
+            "cam_front_y": 0.0,
+            "cam_front_z": -1.0,
+            "cam_up_x": 0.0,
+            "cam_up_y": 1.0,
+            "cam_up_z": 0.0,
+            "cam_offset_pos_x": 0.0,
+            "cam_offset_pos_y": 0.0
+        },
+        {
+            "scene_actor_prefab_type_key": "UIFrame",
+            "path_key": "Resource/Json/PrefabActor/UIFrame.json",
+            "object_type_key": "User_Interface",
+            "scene_actor_name_key": "UIFrame",
+            "active": true,
+            "m_Pos.x": 600.0,
+            "m_Pos.y": 500.0,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 250.0,
+            "m_Scale.y": 125.0,
+            "Orthogonal_Camera": true,
+            "Layer": 3,
+            "child_scene_actor_container": [
+                {
+                    "scene_actor_prefab_type_key": "UIBall",
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall1",
+                    "active": true,
+                    "m_Pos.x": 500.0,
+                    "m_Pos.y": 600.0,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 50.0,
+                    "m_Scale.y": 50.0,
+                    "Orthogonal_Camera": true,
+                    "Layer": 3,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "UIBall"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "UIBall",
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall2",
+                    "active": true,
+                    "m_Pos.x": 550.0,
+                    "m_Pos.y": 600.0,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 50.0,
+                    "m_Scale.y": 50.0,
+                    "Orthogonal_Camera": true,
+                    "Layer": 3,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "UIBall"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "UIBall",
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall3",
+                    "active": true,
+                    "m_Pos.x": 600.0,
+                    "m_Pos.y": 600.0,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 50.0,
+                    "m_Scale.y": 50.0,
+                    "Orthogonal_Camera": true,
+                    "Layer": 3,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "UIBall"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "UIBall",
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall4",
+                    "active": true,
+                    "m_Pos.x": 650.0,
+                    "m_Pos.y": 600.0,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 50.0,
+                    "m_Scale.y": 50.0,
+                    "Orthogonal_Camera": true,
+                    "Layer": 3,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "UIBall"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "UIBall",
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall5",
+                    "active": true,
+                    "m_Pos.x": 700.0,
+                    "m_Pos.y": 600.0,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 50.0,
+                    "m_Scale.y": 50.0,
+                    "Orthogonal_Camera": true,
+                    "Layer": 3,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "UIBall"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "LevelCoordinate": {
+        "global_coordinate_min_x": -1.5,
+        "global_coordinate_max_x": 1.5,
+        "global_coordinate_min_y": -1.5,
+        "global_coordinate_max_y": 1.5
+    }
+}

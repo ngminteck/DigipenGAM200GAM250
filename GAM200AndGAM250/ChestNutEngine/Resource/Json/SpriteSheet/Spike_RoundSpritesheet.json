@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/RoundSpikeAnimated.dds",
+    "Sprite_Name": "RoundSpike",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "RoundSpike",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 192,
+          "h": 192,
+          "numframes": 3,
+          "interval": [0.016, 0.016, 0.016]
+        }
+      }
+    ]
+  }
+}

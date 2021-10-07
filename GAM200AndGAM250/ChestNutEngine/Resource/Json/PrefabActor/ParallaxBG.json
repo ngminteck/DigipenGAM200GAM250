@@ -1,0 +1,70 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "",
+        "prefab_name_key": "ParallaxBG",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 16.218776,
+                "m_Pos.y": -80.077018,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 32.0,
+                "m_Scale.y": 32.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 16.218776,
+                "m_Translate.y": -80.077018,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "Level01_001_001",
+                "Texture_Name": "Level01_001_001",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": false,
+                "Layer": 1
+            },
+            {
+                "ComponentType": "MovementComponent",
+                "m_Dir": 1,
+                "m_State": "IDLE",
+                "m_nextState": "IDLE"
+            },
+            {
+                "ComponentType": "ScriptComponent",
+                "Script": [
+                    {
+                        "Path": "Resource/Scripts/ParallaxMovement.lua",
+                        "State": "IDLE"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidBodyComponent",
+                "m_accel.x": 0.0,
+                "m_accel.y": 0.0,
+                "m_counter": 0.0,
+                "m_direction.x": 0.0,
+                "m_direction.y": 0.0,
+                "m_duration": 0.0,
+                "m_gravity": 0.0,
+                "m_hasGravity": false,
+                "m_hitCeiling": false,
+                "m_isMoving": false,
+                "m_isStaticObj": false,
+                "m_mass": 1.0,
+                "m_modA": 0.1,
+                "m_modB": 0.0,
+                "m_modC": -431602080.0,
+                "m_objType": "BACKGROUND",
+                "m_onGround": false,
+                "m_pushLeft": false,
+                "m_pushRight": false,
+                "m_startTime": 0.0,
+                "m_vel.x": 0.0,
+                "m_vel.y": 0.0
+            }
+        ]
+    }
+}

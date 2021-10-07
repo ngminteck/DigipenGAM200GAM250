@@ -1,0 +1,21 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "",
+        "prefab_name_key": "BGM_Manager",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "AudioComponent",
+                "audioMap": [
+                    {
+                        "Path": "Resource\\Audio\\BGM_InGame.wav",
+                        "Volume": 0.699998,
+                        "Loop": true,
+                        "State": "IDLE"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "Enemy",
+        "prefab_name_key": "WeakSnSValkyrie",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "StatsComponent",
+                "m_HP": 9.0,
+                "m_MP": 2.0,
+                "m_invul": false,
+                "m_invulTimer": 0.0
+            },
+            {
+                "ComponentType": "RigidBodyComponent",
+                "m_accel.x": 0.0,
+                "m_accel.y": 0.0,
+                "m_counter": 0.0,
+                "m_direction.x": 0.0,
+                "m_direction.y": 0.0,
+                "m_duration": 0.0,
+                "m_gravity": 60.0,
+                "m_hasGravity": true,
+                "m_hitCeiling": false,
+                "m_isMoving": false,
+                "m_isStaticObj": false,
+                "m_mass": 1.0,
+                "m_objType": "ENEMY",
+                "m_onGround": false,
+                "m_pushLeft": false,
+                "m_pushRight": false,
+                "m_startTime": 0.0,
+                "m_vel.x": 0.0,
+                "m_vel.y": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "WeakSnSSpriteSheet",
+                "Texture_Name": "LEFT_IDLE",
+                "Animated_Texture": true,
+                "Layer": 2
+            },
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 1.0,
+                "m_Scale.y": 1.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 5.0,
+                "m_Translate.y": 2.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "GravityComponent",
+                "gravity": true
+            },
+            {
+                "ComponentType": "HotspotComponent"
+            },
+            {
+                "ComponentType": "MovementComponent",
+                "m_Dir": 1,
+                "m_State": "IDLE",
+                "m_nextState": "IDLE"
+            },
+            {
+                "ComponentType": "AABBComponent",
+                "m_aabbScale.x": 0.3,
+                "m_aabbScale.y": 0.649999,
+                "m_max.x": 0.0,
+                "m_max.y": 0.0,
+                "m_min.x": 0.0,
+                "m_min.y": 0.0,
+                "m_offset.x": 0.0,
+                "m_offset.y": 0.0,
+                "m_rect.0.x": 0.0,
+                "m_rect.0.y": 0.0,
+                "m_rect.1.x": 0.0,
+                "m_rect.1.y": 0.0,
+                "m_rect.2.x": 0.0,
+                "m_rect.2.y": 0.0,
+                "m_rect.3.x": 0.0,
+                "m_rect.3.y": 0.0
+            },
+            {
+                "ComponentType": "CollisionComponent",
+                "collideBigPunchHitbox": false,
+                "collideEnemyCounterHitbox": false,
+                "collideEnemyDashHitbox": false,
+                "collideEnemyHitbox": false,
+                "collidePlayerDashHitbox": false,
+                "collidePlayerHitbox": false,
+                "isColliding": false,
+                "isCollidingBottom": false,
+                "isCollidingLeft": false,
+                "isCollidingRight": false,
+                "isCollidingTop": false,
+                "isCollidingvsCheckpoint": false,
+                "isCollidingvsCrumbling": false,
+                "isCollidingvsEnemy": true,
+                "isCollidingvsMoving": false,
+                "isCollidingvsPit": false,
+                "isCollidingvsSwitch": false,
+                "isCollidingvsTornado": false
+            },
+            {
+                "ComponentType": "ScriptComponent",
+                "Script": [
+                    {
+                        "Path": "Resource/Scripts/WeakSnSCounter.lua",
+                        "State": "COUNTER"
+                    },
+                    {
+                        "Path": "Resource/Scripts/WeakSnSIdle.lua",
+                        "State": "IDLE"
+                    },
+                    {
+                        "Path": "Resource/Scripts/WeakSnSHurt.lua",
+                        "State": "HURT"
+                    },
+                    {
+                        "Path": "Resource/Scripts/WeakSnSWalk.lua",
+                        "State": "WALK"
+                    },
+                    {
+                        "Path": "Resource/Scripts/WeakSnSAttack.lua",
+                        "State": "ATTACK"
+                    },
+                    {
+                        "Path": "Resource/Scripts/WeakSnSDie.lua",
+                        "State": "DIE"
+                    },
+                    {
+                        "Path": "Resource/Scripts/WeakSnSDieFade.lua",
+                        "State": "DIEFADE"
+                    },
+                    {
+                        "Path": "Resource/Scripts/WeakSnSCounterStance.lua",
+                        "State": "COUNTERSTANCE"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "AudioComponent",
+                "audioMap": [
+                    {
+                        "Path": "Resource/Audio/slash1.wav",
+                        "State": "ATTACK"
+                    },
+                    {
+                        "Path": "Resource/Audio/slash1.wav",
+                        "State": "COUNTER"
+                    },
+                    {
+                        "Path": "Resource/Audio/Death.wav",
+                        "State": "DIE"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerHitConnect.wav",
+                        "State": "HURT"
+                    }
+                ]
+            }
+        ]
+    }
+}

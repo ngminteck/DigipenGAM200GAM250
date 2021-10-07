@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/TILE-Sky03.dds",
+    "Sprite_Name": "TILE-Sky03",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "TILE-SKY03",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 1240,
+          "h": 931,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/VFXWind_07.dds",
+        "Sprite_Name": "VFXWind_07",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "VFXWind_07",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1361,
+                    "h": 366,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

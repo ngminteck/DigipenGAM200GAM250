@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Switch.dds",
+        "Sprite_Name": "Switch",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Switch",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 284,
+                    "h": 460,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

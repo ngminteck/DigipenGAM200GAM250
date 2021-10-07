@@ -1,0 +1,21 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/CheckpointIdle_Spritesheet.dds",
+        "Sprite_Name": "Checkpoint_Idle_PFX",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Idle_PFX",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 300,
+                    "h": 400,
+                    "numframes": 7,
+                    "interval": [ 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05 ]
+                }
+            }
+        ]
+    }
+}

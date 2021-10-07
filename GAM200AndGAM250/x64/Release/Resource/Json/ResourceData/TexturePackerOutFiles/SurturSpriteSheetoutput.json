@@ -1,0 +1,60 @@
+{"frames": {
+
+"BasicAttack_Sequence":
+{
+	"frame": {"x":0,"y":0,"w":1500,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":250},
+	"sourceSize": {"w":1500,"h":250}
+},
+"Dash_Sequence":
+{
+	"frame": {"x":0,"y":540,"w":1200,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":250},
+	"sourceSize": {"w":1200,"h":250}
+},
+"Guard_Sequence":
+{
+	"frame": {"x":0,"y":1000,"w":960,"h":240},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":240},
+	"sourceSize": {"w":960,"h":240}
+},
+"Jump_Sequence":
+{
+	"frame": {"x":1405,"y":255,"w":600,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":600,"h":200},
+	"sourceSize": {"w":600,"h":200}
+},
+"SpecialAttack_Sequence":
+{
+	"frame": {"x":0,"y":255,"w":1400,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1400,"h":280},
+	"sourceSize": {"w":1400,"h":280}
+},
+"Walk_Sequence":
+{
+	"frame": {"x":0,"y":795,"w":1200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":200},
+	"sourceSize": {"w":1200,"h":200}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "SurturSpriteSheet.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a022f88e61730dcd3c316345f506096b:36706819cded768add46adfd3f46ee60:93953773b00d716ed7160a75d494a095$"
+}
+}

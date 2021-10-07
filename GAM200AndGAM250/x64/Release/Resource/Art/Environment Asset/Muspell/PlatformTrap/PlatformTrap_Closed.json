@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/PlatformTrap_Closed.dds",
+        "Sprite_Name": "PlatformTrap_Closed",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "PlatformTrap_Closed",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1954,
+                    "h": 348,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

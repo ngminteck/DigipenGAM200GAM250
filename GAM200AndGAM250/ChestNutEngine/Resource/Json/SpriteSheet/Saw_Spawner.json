@@ -1,0 +1,142 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Saw_Spritesheet.dds",
+    "Sprite_Name": "Saw_Spawner",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+        {
+            "Texture_Name": "SAW_SPAWNER_FACERIGHT",
+            "Frame": {
+                "x": 1,
+                "y": 257,
+                "w": 126,
+                "h": 126,
+                "numframes": 1,
+                "interval": [ 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "SAW_SPAWNER_FIRE_FACERIGHT",
+            "Frame": {
+                "x": 1,
+                "y": 257,
+                "w": 126,
+                "h": 126,
+                "numframes": 6,
+                "interval": [ 0.016, 0.016, 0.016, 0.016, 0.016, 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "SAW_SPAWNER_FACELEFT",
+            "Frame": {
+                "x": 127,
+                "y": 257,
+                "w": -126,
+                "h": 126,
+                "numframes": 1,
+                "interval": [ 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "SAW_SPAWNER_FIRE_FACELEFT",
+            "Frame": {
+                "x": 127,
+                "y": 257,
+                "w": -126,
+                "h": 126,
+                "numframes": 6,
+                "interval": [ 0.016, 0.016, 0.016, 0.016, 0.016, 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "SAW_SPAWNER_FACEUP",
+            "Frame": {
+                "x": 1,
+                "y": 385,
+                "w": 126,
+                "h": 126,
+                "numframes": 1,
+                "interval": [ 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "SAW_SPAWNER_FIRE_FACEUP",
+            "Frame": {
+                "x": 1,
+                "y": 385,
+                "w": 126,
+                "h": 126,
+                "numframes": 6,
+                "interval": [ 0.016, 0.016, 0.016, 0.016, 0.016, 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "SAW_SPAWNER_FACEDOWN",
+            "Frame": {
+                "x": 1,
+                "y": 513,
+                "w": 126,
+                "h": -126,
+                "numframes": 1,
+                "interval": [ 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "SAW_SPAWNER_FIRE_FACEDOWN",
+            "Frame": {
+                "x": 1,
+                "y": 513,
+                "w": 126,
+                "h": -126,
+                "numframes": 6,
+                "interval": [ 0.016, 0.016, 0.016, 0.016, 0.016, 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_SAW_SPAWNER_FACEDOWN",
+            "Frame": {
+                "x": 1,
+                "y": 513,
+                "w": 126,
+                "h": -126,
+                "numframes": 1,
+                "interval": [ 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_SAW_SPAWNER_FACEDOWN",
+            "Frame": {
+                "x": 1,
+                "y": 513,
+                "w": 126,
+                "h": -126,
+                "numframes": 1,
+                "interval": [ 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_SAW_SPAWNER_FIRE_FACEDOWN",
+            "Frame": {
+                "x": 1,
+                "y": 513,
+                "w": 126,
+                "h": -126,
+                "numframes": 6,
+                "interval": [ 0.016, 0.016, 0.016, 0.016, 0.016, 0.016 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_SAW_SPAWNER_FIRE_FACEDOWN",
+            "Frame": {
+                "x": 1,
+                "y": 513,
+                "w": 126,
+                "h": -126,
+                "numframes": 6,
+                "interval": [ 0.016, 0.016, 0.016, 0.016, 0.016, 0.016 ]
+            }
+        }
+    ]
+  }
+}

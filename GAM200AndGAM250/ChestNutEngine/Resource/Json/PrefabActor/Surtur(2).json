@@ -1,0 +1,310 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "Player",
+        "prefab_name_key": "Surtur(2)",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "StatsComponent",
+                "m_HP": 5.0,
+                "m_MP": 2.0,
+                "m_invul": false,
+                "m_invulTimer": 0.0
+            },
+            {
+                "ComponentType": "RigidBodyComponent",
+                "m_accel.x": 0.0,
+                "m_accel.y": 0.0,
+                "m_counter": 0.0,
+                "m_direction.x": 0.0,
+                "m_direction.y": 0.0,
+                "m_duration": 0.0,
+                "m_gravity": 0.0,
+                "m_hasGravity": false,
+                "m_hitCeiling": false,
+                "m_isMoving": false,
+                "m_isStaticObj": false,
+                "m_mass": 1.0,
+                "m_modA": 0.0,
+                "m_modB": 0.0,
+                "m_modC": 0.0,
+                "m_objType": "NONEXIST",
+                "m_onGround": false,
+                "m_pushLeft": false,
+                "m_pushRight": false,
+                "m_startTime": 0.0,
+                "m_vel.x": 0.0,
+                "m_vel.y": 0.0
+            },
+            {
+                "ComponentType": "AudioComponent",
+                "audioMap": [
+                    {
+                        "Path": "Resource/Audio/PlayerSlash.wav",
+                        "Volume": 0.699998,
+                        "Loop": false,
+                        "State": "ATTACK1"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerSlash.wav",
+                        "Volume": 0.699998,
+                        "Loop": false,
+                        "State": "ATTACK2"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerSlash.wav",
+                        "Volume": 0.699998,
+                        "Loop": false,
+                        "State": "ATTACK3"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerDash.wav",
+                        "Volume": 0.5,
+                        "Loop": false,
+                        "State": "DASH"
+                    },
+                    {
+                        "Path": "",
+                        "Volume": 1.0,
+                        "Loop": false,
+                        "State": "DEBUG"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerDeath.wav",
+                        "Volume": 1.0,
+                        "Loop": false,
+                        "State": "DIE"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerDoubleJump.wav",
+                        "Volume": 1.0,
+                        "Loop": false,
+                        "State": "DOUBLEJUMP"
+                    },
+                    {
+                        "Path": "NO AUDIO",
+                        "Volume": 0.0,
+                        "Loop": false,
+                        "State": "FALL"
+                    },
+                    {
+                        "Path": "Resource/Audio/ValkyrieSpearHit.wav",
+                        "Volume": 1.0,
+                        "Loop": false,
+                        "State": "HURT"
+                    },
+                    {
+                        "Path": "NO AUDIO",
+                        "Volume": 1.0,
+                        "Loop": false,
+                        "State": "IDLE"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerJump.wav",
+                        "Volume": 0.3,
+                        "Loop": false,
+                        "State": "JUMP"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerSlash.wav",
+                        "Volume": 0.699998,
+                        "Loop": false,
+                        "State": "JUMPATTACK"
+                    },
+                    {
+                        "Path": "NO AUDIO",
+                        "Volume": 1.0,
+                        "Loop": false,
+                        "State": "LAND"
+                    },
+                    {
+                        "Path": "Resource/Audio/SawCollision.wav",
+                        "Volume": 0.5,
+                        "Loop": false,
+                        "State": "RESPAWN"
+                    },
+                    {
+                        "Path": "Resource/Audio/PlayerWalk.wav",
+                        "Volume": 0.5,
+                        "Loop": false,
+                        "State": "WALK"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "SurtrSpriteSheet",
+                "Texture_Name": "LEFT_IDLE",
+                "Animated_Texture": true,
+                "Orthogonal_Camera": false,
+                "Layer": 2
+            },
+            {
+                "ComponentType": "CollisionComponent",
+                "collideBigPunchHitbox": false,
+                "collideEnemyCounterHitbox": false,
+                "collideEnemyDashHitbox": false,
+                "collideEnemyHitbox": false,
+                "collidePlayerDashHitbox": false,
+                "collidePlayerHitbox": false,
+                "isColliding": false,
+                "isCollidingBottom": false,
+                "isCollidingLeft": false,
+                "isCollidingRight": false,
+                "isCollidingTop": false,
+                "isCollidingvsCheckpoint": false,
+                "isCollidingvsCollider": false,
+                "isCollidingvsCrumbling": false,
+                "isCollidingvsDIn": false,
+                "isCollidingvsDOut": false,
+                "isCollidingvsEndGameBox": false,
+                "isCollidingvsEnemy": false,
+                "isCollidingvsMoving": false,
+                "isCollidingvsPit": false,
+                "isCollidingvsPopup": false,
+                "isCollidingvsRespawn": false,
+                "isCollidingvsSwitch": false,
+                "isCollidingvsTornado": false,
+                "isCollidingvsTrigger": false
+            },
+            {
+                "ComponentType": "ScriptComponent",
+                "Script": [
+                    {
+                        "Path": "Resource/Scripts/SurtrIdle.lua",
+                        "State": "IDLE"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrWalk.lua",
+                        "State": "WALK"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrFall.lua",
+                        "State": "FALL"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrJumpStable.lua",
+                        "State": "JUMP"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrAttack2.lua",
+                        "State": "ATTACK2"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrDash.lua",
+                        "State": "DASH"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrJumpAttack.lua",
+                        "State": "JUMPATTACK"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrAttack1.lua",
+                        "State": "ATTACK1"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrLand.lua",
+                        "State": "LAND"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrAttackDecide.lua",
+                        "State": "ATTACKDECIDE"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrDoubleJump.lua",
+                        "State": "DOUBLEJUMP"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrAttack3.lua",
+                        "State": "ATTACK3"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrLevelEnd.lua",
+                        "State": "END"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrRegenStartup.lua",
+                        "State": "REGENSTARTUP"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrRegen.lua",
+                        "State": "REGEN"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrRespawn.lua",
+                        "State": "RESPAWN"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrDie.lua",
+                        "State": "DIE"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrDebug.lua",
+                        "State": "DEBUG"
+                    },
+                    {
+                        "Path": "Resource/Scripts/SurtrHurt.lua",
+                        "State": "HURT"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "AABBComponent",
+                "m_aabbScale.x": 0.2,
+                "m_aabbScale.y": 0.33,
+                "m_max.x": 0.0,
+                "m_max.y": 0.0,
+                "m_min.x": 0.0,
+                "m_min.y": 0.0,
+                "m_offset.x": 0.0,
+                "m_offset.y": 0.0,
+                "m_rect.0.x": 0.0,
+                "m_rect.0.y": 0.0,
+                "m_rect.1.x": 0.0,
+                "m_rect.1.y": 0.0,
+                "m_rect.2.x": 0.0,
+                "m_rect.2.y": 0.0,
+                "m_rect.3.x": 0.0,
+                "m_rect.3.y": 0.0
+            },
+            {
+                "ComponentType": "MovementComponent",
+                "m_Dir": 1,
+                "m_State": "DEBUG",
+                "m_nextState": "DEBUG"
+            },
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": -2.637495,
+                "m_Pos.y": 1.510491,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 3.0,
+                "m_Scale.y": 3.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": -2.637495,
+                "m_Translate.y": 1.510491,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "CameraComponent",
+                "cam_pos_x": 0.044084,
+                "cam_pos_y": 9.496603,
+                "cam_pos_z": 10.0,
+                "cam_front_x": 0.0,
+                "cam_front_y": 0.0,
+                "cam_front_z": -1.0,
+                "cam_up_x": 0.0,
+                "cam_up_y": 1.0,
+                "cam_up_z": 0.0,
+                "cam_offset_pos_x": 0.0,
+                "cam_offset_pos_y": 0.0,
+                "cam_clamp": true,
+                "cam_clamp_min_x": 0.0,
+                "cam_clamp_max_x": 0.0,
+                "cam_clamp_min_y": 0.0,
+                "cam_clamp_max_y": 0.0
+            }
+        ]
+    }
+}

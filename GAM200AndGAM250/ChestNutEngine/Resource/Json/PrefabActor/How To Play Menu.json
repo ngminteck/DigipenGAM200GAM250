@@ -1,0 +1,57 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "New Button",
+        "prefab_name_key": "How To Play Menu",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 5.0,
+                "m_Scale.y": 5.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 0.0,
+                "m_Translate.y": 0.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "HowToPlay__Menu",
+                "Texture_Name": "HowToPlay__Menu",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": true,
+                "Layer": 4
+            },
+            {
+                "ComponentType": "AudioComponent",
+                "audioMap": [
+                    {
+                        "Path": "NO AUDIO",
+                        "Volume": 0.17,
+                        "Loop": true,
+                        "State": "IDLE"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "ButtonComponent",
+                "isHovered": false,
+                "Active Texture": "How To Play",
+                "Inactive Texture": "How To Play",
+                "Button ID": 0,
+                "Trigger Type": 0,
+                "Game State": "",
+                "Menu ID": 0,
+                "isMenu": false,
+                "Next Menu": 0,
+                "Section ID": 0,
+                "Icon": -1,
+                "Navigate": "NO AUDIO",
+                "Enter": "NO AUDIO"
+            }
+        ]
+    }
+}

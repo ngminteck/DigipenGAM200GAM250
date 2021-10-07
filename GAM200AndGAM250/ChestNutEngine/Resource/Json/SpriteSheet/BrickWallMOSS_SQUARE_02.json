@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/BrickWallMOSS_SQUARE_02.dds",
+    "Sprite_Name": "BrickWallMOSS_SQUARE_02",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "MOSS_WALL2",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

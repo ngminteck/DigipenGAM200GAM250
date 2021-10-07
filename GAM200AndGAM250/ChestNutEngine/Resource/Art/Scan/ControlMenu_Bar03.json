@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/ControlMenu_Bar03.dds",
+        "Sprite_Name": "ControlMenu_Bar03",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "ControlMenu_Bar03",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 23,
+                    "h": 73,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Boss/BossShield.dds",
+        "Sprite_Name": "BossShield",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "BossShield",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 300,
+                    "h": 300,
+                    "numframes": 8,
+                    "interval": [
+                        0.096,
+						0.096,
+						0.096,
+						0.096,
+						0.096,
+						0.096,
+						0.096,
+						0.096
+                    ]
+                }
+            }
+        ]
+    }
+}

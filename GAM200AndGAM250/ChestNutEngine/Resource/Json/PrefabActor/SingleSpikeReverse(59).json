@@ -1,0 +1,22 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "Custom",
+        "prefab_name_key": "SingleSpikeReverse(59)",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 1.0,
+                "m_Scale.y": 1.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 0.0,
+                "m_Translate.y": 10.0,
+                "m_Translate.z": 0.0
+            }
+        ]
+    }
+}

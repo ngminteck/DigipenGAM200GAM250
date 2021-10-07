@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/TestTutorialImage.dds",
+    "Sprite_Name": "TestTutorialImage",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "TestTutorialImage",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 546,
+          "h": 309,
+          "numframes": 1,
+          "interval": [ 0 ]
+        }
+      }
+    ]
+  }
+}

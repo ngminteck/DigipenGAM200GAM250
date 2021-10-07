@@ -1,0 +1,11 @@
+{
+  "Shader":
+  [
+    {
+    
+      "Vertex"  : "Resource/ShaderSource/vertexShader.shader",
+      "Frag,emt": "Resource/ShaderSource/fragShader.shader",
+      "Hash"  : "Default"
+    }
+  ]
+}

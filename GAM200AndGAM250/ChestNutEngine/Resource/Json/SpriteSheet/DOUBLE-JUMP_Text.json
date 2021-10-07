@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/DOUBLE-JUMP_Text.dds",
+        "Sprite_Name": "DOUBLE-JUMP_Text",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "DOUBLE-JUMP_Text",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 103,
+                    "h": 44,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

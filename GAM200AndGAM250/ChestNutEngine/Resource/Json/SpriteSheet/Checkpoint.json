@@ -1,0 +1,76 @@
+{
+  "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Checkpoint_Spritesheet.dds",
+        "Sprite_Name": "Checkpoint",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "LEFT_Checkpoint",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 64,
+                    "h": 128,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "RIGHT_Checkpoint",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 64,
+                    "h": 128,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "LEFT_Checkpoint_Ignite",
+                "Frame": {
+                    "x": 1,
+                    "y": 0,
+                    "w": 62,
+                    "h": 127,
+                    "numframes": 9,
+                    "interval": [ 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048 ]
+                }
+            },
+            {
+                "Texture_Name": "RIGHT_Checkpoint_Ignite",
+                "Frame": {
+                    "x": 1,
+                    "y": 0,
+                    "w": 62,
+                    "h": 127,
+                    "numframes": 9,
+                    "interval": [ 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048 ]
+                }
+            },
+            {
+                "Texture_Name": "LEFT_Checkpoint_Lit",
+                "Frame": {
+                    "x": 0,
+                    "y": 129,
+                    "w": 62,
+                    "h": 127,
+                    "numframes": 5,
+                    "interval": [ 0.048, 0.048, 0.048, 0.048, 0.048 ]
+                }
+            },
+            {
+                "Texture_Name": "RIGHT_Checkpoint_Lit",
+                "Frame": {
+                    "x": 0,
+                    "y": 129,
+                    "w": 62,
+                    "h": 127,
+                    "numframes": 5,
+                    "interval": [ 0.048, 0.048, 0.048, 0.048, 0.048 ]
+                }
+            }
+        ]
+    }
+}

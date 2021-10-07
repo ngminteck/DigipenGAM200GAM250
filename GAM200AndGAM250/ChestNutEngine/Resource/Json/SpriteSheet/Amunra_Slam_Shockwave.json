@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Boss/Amunra_Slam_Shockwave.dds",
+        "Sprite_Name": "Amunra_Slam_Shockwave",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Amunra_Slam_Shockwave",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 394,
+                    "h": 236,
+                    "numframes": 9,
+                    "interval": [
+                        0.048, 0.048, 0.032, 0.032, 0.048, 0.048, 0.048, 0.048, 0.048
+                    ]
+                }
+            }
+        ]
+    }
+}

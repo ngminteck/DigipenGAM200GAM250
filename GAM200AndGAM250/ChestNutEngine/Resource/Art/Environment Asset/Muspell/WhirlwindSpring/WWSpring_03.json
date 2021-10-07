@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/WWSpring_03.dds",
+        "Sprite_Name": "WWSpring_03",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "WWSpring_03",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 712,
+                    "h": 760,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/EnvironmentalAnimation_Spritesheet.dds",
+    "Sprite_Name": "EnvironmentalAnimation_Spritesheet",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "Fountain",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 300,
+          "h": 300,
+          "numframes": 8,
+          "interval": [0.05, 0.05, 0.05, 0.05,
+                       0.05, 0.05, 0.05, 0.05 ]
+        }
+      },
+      {
+        "Texture_Name": "Dust",
+        "Frame": {
+          "x": 0,
+          "y": 300,
+          "w": 300,
+          "h": 300,
+          "numframes": 11,
+          "interval": [0.05, 0.05, 0.05, 0.05,
+                       0.05, 0.05, 0.05, 0.05,
+                       0.05, 0.05, 0.05]
+        }
+      },
+      {
+        "Texture_Name": "Torch",
+        "Frame": {
+          "x": 0,
+          "y": 600,
+          "w": 300,
+          "h": 300,
+          "numframes": 12,
+          "interval": [0.05, 0.05, 0.05, 0.05,
+                       0.05, 0.05, 0.05, 0.05,
+                       0.05, 0.05, 0.05, 0.05 ]
+        }
+      },
+      {
+        "Texture_Name": "Sconce",
+        "Frame": {
+          "x": 0,
+          "y": 900,
+          "w": 300,
+          "h": 300,
+          "numframes": 13,
+          "interval": [0.05, 0.05, 0.05, 0.05,
+                       0.05, 0.05, 0.05, 0.05,
+                       0.05, 0.05, 0.05, 0.05,
+                       0.05 ]
+        }
+      }
+    ]
+  }
+}

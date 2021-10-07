@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Boss/001-Midground.dds",
+    "Sprite_Name": "LevelBoss_001",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "LevelBoss_001",
+        "Frame": {
+          "x": 1,
+          "y": 1,
+          "w": 4000,
+          "h": 1269,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Input.cpp">
+      <Filter>Engine\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBComponent.cpp">
+      <Filter>Engine\Components\AABBComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionComponent.cpp">
+      <Filter>Engine\Components\CollisionComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Core\Systems\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthSystem.cpp">
+      <Filter>Engine\Core\Systems\Health</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Engine\Components\TransformComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthEvent.cpp">
+      <Filter>Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveEvent.cpp">
+      <Filter>Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Engine\Core\Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Engine\Core\GameWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Engine\Core\Systems\Graphics\Texture2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Engine\Core\Systems\Graphics\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine\Core\Systems\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Math\Matrix3x3</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Math\Vector2D</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBodyComponent.cpp">
+      <Filter>Engine\Components\RigidBodyComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>Engine\Components\SpriteComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFactory.cpp">
+      <Filter>Engine\Factory\ResourceFactory\MeshFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFactory.cpp">
+      <Filter>Engine\Factory\ComponentFactory\SpriteFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformFactory.cpp">
+      <Filter>Engine\Factory\ComponentFactory\TransformFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>Engine\Core\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Engine\Components\MovementComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Engine\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameController.cpp">
+      <Filter>Engine\Core\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Engine\Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Engine\Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Engine\Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>Engine\Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Engine\Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Engine\Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_stl.cpp">
+      <Filter>Engine\Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4D.cpp">
+      <Filter>Math\Vector4D</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Math\Matrix4x4</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Math\Vector3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Math\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>Math\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\Core\Systems\Animation\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialPartition.cpp">
+      <Filter>Math\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicSystem.cpp">
+      <Filter>Engine\Core\Systems\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Engine\Core\Systems\Graphics\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSystem.cpp">
+      <Filter>Engine\Core\Systems\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorObjectSelector.cpp">
+      <Filter>Engine\Editor\EditorObjectSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderFactory.cpp">
+      <Filter>Engine\Factory\ResourceFactory\ShaderFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileHandler.cpp">
+      <Filter>Engine\Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorConsole.cpp">
+      <Filter>Engine\Editor\EditorConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="Force.cpp">
+      <Filter>Math\Force</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefabActor.cpp">
+      <Filter>Engine\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFileInfo.cpp">
+      <Filter>Engine\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneActor.cpp">
+      <Filter>Engine\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheetFactory.cpp">
+      <Filter>Engine\Factory\ResourceFactory\SpriteSheetFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection.cpp">
+      <Filter>Engine\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefabActorFactory.cpp">
+      <Filter>Engine\Factory\ResourceFactory\PrefabActorFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourTree.cpp">
+      <Filter>Math\AIScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Engine\Core\ScriptManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceFactoryManager.cpp">
+      <Filter>Engine\Factory\ResourceFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptComponent.cpp">
+      <Filter>Engine\Components\ScriptComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Engine\Core\ScriptManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>Engine\Core\Systems\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceViewer.cpp">
+      <Filter>Engine\Editor\PerformanceViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsComponent.cpp">
+      <Filter>Engine\Components\StatsComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsContainer.cpp">
+      <Filter>Engine\Core\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneActorFactory.cpp">
+      <Filter>Engine\Factory\ResourceFactory\SceneActorFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsPreprocess.cpp">
+      <Filter>Engine\Core\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Overthrone.cpp">
+      <Filter>Engine\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Engine\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorContentBrowser.cpp">
+      <Filter>Engine\Editor\EditorContentBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorWorldOutliner.cpp">
+      <Filter>Engine\Editor\EditorWorldOutliner</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefabEditorWindow.cpp">
+      <Filter>Engine\Editor\PrefabEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioComponent.cpp">
+      <Filter>Engine\Components\AudioComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDies.cpp">
+      <Filter>Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitGame.cpp">
+      <Filter>Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefab.cpp">
+      <Filter>Engine\Actors\Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Engine\Core\Systems\Audio\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Inspector.cpp">
+      <Filter>Engine\Editor\Inspector</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonComponent.cpp">
+      <Filter>Engine\Components\ButtonComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonFactory.cpp">
+      <Filter>Engine\Factory\ComponentFactory\ButtonFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonSystem.cpp">
+      <Filter>Engine\Core\Systems\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFactory.cpp">
+      <Filter>Engine\Factory\ComponentFactory\CameraFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Engine\Components\CameraComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeComponent.cpp">
+      <Filter>Engine\Components\VolumeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Math\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckpointComponent.cpp">
+      <Filter>Engine\Components\CheckpointComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="XBoxInputSystem.cpp">
+      <Filter>Engine\Core\XBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckpointSystem.cpp">
+      <Filter>Engine\Core\Systems\CheckpointSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>Engine\Core\Systems\CheckpointSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueComponent.cpp">
+      <Filter>Engine\Components\DialogueComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueFactory.cpp">
+      <Filter>Engine\Factory\ComponentFactory\DialogueFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueSystem.cpp">
+      <Filter>Engine\Core\Systems\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckpointFactory.cpp">
+      <Filter>Engine\Factory\ComponentFactory\CheckpointFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionSystem.cpp">
+      <Filter>Engine\Core\Systems\Transition</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinMain.h" />
+    <ClInclude Include="Input.h">
+      <Filter>Engine\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDefines.h">
+      <Filter>Engine\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBComponent.h">
+      <Filter>Engine\Components\AABBComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComponent.h">
+      <Filter>Engine\Components\CollisionComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Core\Systems\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthSystem.h">
+      <Filter>Engine\Core\Systems\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Engine\Components\TransformComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthEvent.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveEvent.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Engine\Core\Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Engine\Core\GameWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Engine\Core\Systems\Graphics\Texture2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Engine\Core\Systems\Graphics\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Engine\Core\Systems\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Math\Matrix3x3</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Math\Vector2D</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyComponent.h">
+      <Filter>Engine\Components\RigidBodyComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentFactory.h">
+      <Filter>Engine\Factory\ComponentFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\RigidBodyFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>Engine\Components\SpriteComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\AABBFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\CollisionFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\SpriteFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceFactory.h">
+      <Filter>Engine\Factory\ResourceFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFactory.h">
+      <Filter>Engine\Factory\ResourceFactory\MeshFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Engine\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Engine\Core\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\TransformFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Engine\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSystem.h">
+      <Filter>Engine\Core\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\MovementFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Engine\Components\MovementComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Engine\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameController.h">
+      <Filter>Engine\Core\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseHandler.h">
+      <Filter>Engine\Event\Function Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedHandler.h">
+      <Filter>Engine\Event\Function Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Math\Matrix4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.h">
+      <Filter>Math\Vector4D</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Math\Vector3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Math\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>Math\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Engine\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeErasedObj.h">
+      <Filter>Engine\Miscs\TypeErasedObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialPartition.h">
+      <Filter>Math\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="LogicSystem.h">
+      <Filter>Engine\Core\Systems\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Engine\Core\Systems\Graphics\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSystem.h">
+      <Filter>Engine\Core\Systems\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorObjectSelector.h">
+      <Filter>Engine\Editor\EditorObjectSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderFactory.h">
+      <Filter>Engine\Factory\ResourceFactory\ShaderFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Engine\Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileHandler.h">
+      <Filter>Engine\Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceViewer.h">
+      <Filter>Engine\Editor\PerformanceViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorConsole.h">
+      <Filter>Engine\Editor\EditorConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="Force.h">
+      <Filter>Math\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFileInfo.h">
+      <Filter>Engine\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefabActor.h">
+      <Filter>Engine\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneActor.h">
+      <Filter>Engine\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheetFactory.h">
+      <Filter>Engine\Factory\ResourceFactory\SpriteSheetFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Selection.h">
+      <Filter>Engine\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefabActorFactory.h">
+      <Filter>Engine\Factory\ResourceFactory\PrefabActorFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoMove.h">
+      <Filter>Engine\Miscs\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Engine\Miscs\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandManager.h">
+      <Filter>Engine\Miscs\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree.h">
+      <Filter>Math\AIScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\Core\Systems\Animation\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.h">
+      <Filter>Engine\Core\ScriptManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceFactoryManager.h">
+      <Filter>Engine\Factory\ResourceFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueChange.h">
+      <Filter>Engine\Miscs\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptComponent.h">
+      <Filter>Engine\Components\ScriptComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Engine\Core\ScriptManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\ScriptFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>Engine\Core\Systems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioComponent.h">
+      <Filter>Engine\Components\AudioComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\AudioFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Metadata.h">
+      <Filter>Engine\Miscs\Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteActor.h">
+      <Filter>Engine\Miscs\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleGravity.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsComponent.h">
+      <Filter>Engine\Components\StatsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\StatsFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchLevelEvent.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageEvent.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseGame.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadLevel.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLevel.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="WinLoseEvent.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeAudio.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPreprocess.h">
+      <Filter>Engine\Core\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsContainer.h">
+      <Filter>Engine\Core\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneActorFactory.h">
+      <Filter>Engine\Factory\ResourceFactory\SceneActorFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Engine\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Overthrone.h">
+      <Filter>Engine\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>Engine\GameState\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorContentBrowser.h">
+      <Filter>Engine\Editor\EditorContentBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorWorldOutliner.h">
+      <Filter>Engine\Editor\EditorWorldOutliner</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefabEditorWindow.h">
+      <Filter>Engine\Editor\PrefabEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDies.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitGame.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefab.h">
+      <Filter>Engine\Actors\Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Engine\Core\Systems\Audio\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Inspector.h">
+      <Filter>Engine\Editor\Inspector</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayAudio.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonComponent.h">
+      <Filter>Engine\Components\ButtonComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\ButtonFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonSystem.h">
+      <Filter>Engine\Core\Systems\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadGameState.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\CameraFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Engine\Components\CameraComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeComponent.h">
+      <Filter>Engine\Components\VolumeComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Math\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckpointComponent.h">
+      <Filter>Engine\Components\CheckpointComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckpointFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\CheckpointFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckpointSystem.h">
+      <Filter>Engine\Core\Systems\CheckpointSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="XBoxInputSystem.h">
+      <Filter>Engine\Core\XBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivateFade.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueComponent.h">
+      <Filter>Engine\Components\DialogueComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueFactory.h">
+      <Filter>Engine\Factory\ComponentFactory\DialogueFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="RestartLevel.h">
+      <Filter>Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueSystem.h">
+      <Filter>Engine\Core\Systems\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionSystem.h">
+      <Filter>Engine\Core\Systems\Transition</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragShader.shader">
+      <Filter>Engine\Core\Systems\Graphics\Shaders\Shader Source</Filter>
+    </None>
+    <None Include="vertexShader.shader">
+      <Filter>Engine\Core\Systems\Graphics\Shaders\Shader Source</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Back Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\BigPunchHitbox.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Black Screen(3).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Black Screen.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Brick BG.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Brick Wall.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Ceiling(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Ceiling(3).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Ceiling.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\CeilingCornerLeft.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\CeilingCornerRight.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Checkpoint_ON.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\ConnectorLeft1.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\ConnectorLeft2(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\ConnectorLeft2.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\ConnectorRight1(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\ConnectorRight1(3).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\ConnectorRight1.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\ConnectorRight2.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Credits Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Credits Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Crumbling_Platform.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Desert Background 2.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Desert Background(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Desert Background.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Digipen Logo.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\EnemyCounterHitbox.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\EnemyDashHitbox.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\EnemyHitbox.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Floor.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\FloorCornerLeft.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\FloorCornerRight.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\FloorInner.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\FloorInnerLeft.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\FloorInnerRight.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Game Title.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Gate(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Gate.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\HangCornerLeft.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\HangCornerRight.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Harm Water 1.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Harm Water 2.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\How To Play Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\How To Play Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\How To Play Menu.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Menu_Background.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Moss BG.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Moss Wall 1.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Moss Wall 2.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Moss Wall 3.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Moving_Platform.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\No Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\No Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Oneway_Platform.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pause How To Play Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pause How To Play Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pause Menu.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pause Quit Game Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pause Quit Game Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pause Resume Game Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pause Resume Game Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pillar1.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pillar2.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pillar3.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pipe.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pit_Traps(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Pit_Traps.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\PlayerDashHitbox.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\PlayerHitbox.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Quit Game Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Quit Game Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Quit Menu.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Settings Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Settings Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Shelf1.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Shelf2.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Shelf3.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Spikes.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Start Game Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Start Game Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Static_Platform.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Statue1.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\StrongShieldValkyrie(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\StrongShieldValkyrie.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\SurtrSummonPunch.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Surtur.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Switch(5)(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Switch(5).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Switch.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Team Logo.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\TestBackground.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Timed_Platform.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Tornado_Platform.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\UIBall.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\UIBarFill.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\UIBarStart.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\UIFrame.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\UIHPLarge.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\UIHPSmall.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Valkyrie.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Vase1.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Vase2.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\WallLeft.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\WallRight.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\WeakSnSValkyrie.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\WeakSpearValkyrie(2).json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\WeakSpearValkyrie.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Win Menu.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Window.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Yes Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+    <None Include="Resource\Json\PrefabActor\Yes Hover Button.json">
+      <Filter>Engine\Json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{31f3c95c-884c-4a75-9b4c-99d0d58432a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{5b083ee9-ee57-4372-b1c5-fadb5275246f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Timer">
+      <UniqueIdentifier>{735d6bf2-bdc0-4819-92da-d9bc42cbc6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\GameWindow">
+      <UniqueIdentifier>{b5446b24-a05b-4dd4-ae64-0be75364aa2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components">
+      <UniqueIdentifier>{c66345d4-7c27-465f-8543-06e13257ae87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\CollisionComponent">
+      <UniqueIdentifier>{8a9df00b-490a-418e-ae34-4fa23439cffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\AABBComponent">
+      <UniqueIdentifier>{577a11b2-ed36-4d07-8de3-49cb9179b083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\TransformComponent">
+      <UniqueIdentifier>{50f78ca8-5cc0-4230-a932-e53d9cb0457b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory">
+      <UniqueIdentifier>{5c9c1bdc-8fd6-4b3a-a0cc-946d09385de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Event">
+      <UniqueIdentifier>{6feac481-1f5f-4508-9b09-4e96a5844c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{ac44e659-232b-48d7-b88c-8c392bbcaa3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Matrix3x3">
+      <UniqueIdentifier>{93cf4599-0ffa-418b-9c38-8015430728a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector2D">
+      <UniqueIdentifier>{6f4727a6-d80a-4c3b-93e3-ce3c2ea8136c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\RigidBodyComponent">
+      <UniqueIdentifier>{75af22e9-2bf9-452e-a3a5-345393334edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory">
+      <UniqueIdentifier>{fb86aa79-8b96-4363-81fc-02dfcbf28517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\RigidBodyFactory">
+      <UniqueIdentifier>{fedabc40-32d8-4ae8-86ba-5ced030bb535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\SpriteComponent">
+      <UniqueIdentifier>{a7bc099f-179d-4a69-bc64-e6e2c20671c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ResourceFactory">
+      <UniqueIdentifier>{4e23e514-2eae-46a3-8e94-6d3e543eb63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ResourceFactory\MeshFactory">
+      <UniqueIdentifier>{6d6c4f7b-9b83-47d5-9b51-80621ba3c1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\AABBFactory">
+      <UniqueIdentifier>{6ad0aee4-d440-4971-a229-af26e27d2f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\CollisionFactory">
+      <UniqueIdentifier>{daaf161d-0f84-48ce-b98f-f3d5c64e37aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\SpriteFactory">
+      <UniqueIdentifier>{b7d9a5e8-63b2-463a-a10c-9e3fa6478300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Misc">
+      <UniqueIdentifier>{870f0ac4-a12a-4c47-bd40-8bb7fd3a6d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems">
+      <UniqueIdentifier>{8b8c5ff7-db8e-4210-916a-94ba1e1a71a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Health">
+      <UniqueIdentifier>{cd5a6bc3-0d5e-4b34-ba51-8b0fd359dcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Physics">
+      <UniqueIdentifier>{9827bb12-0943-4ff9-80e8-5aa03bfc0573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Graphics">
+      <UniqueIdentifier>{ba49a2a6-2fcb-4081-9c84-f71003b05220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Graphics\Shaders">
+      <UniqueIdentifier>{1f2db681-5896-49e9-811f-26637fd973a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Graphics\Shaders\Shader Source">
+      <UniqueIdentifier>{b1f3269d-1ee3-4f5b-84fe-9b9271046954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Graphics\Mesh">
+      <UniqueIdentifier>{8c16cb19-78b4-483a-a69d-6f941979878c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Graphics\Texture2D">
+      <UniqueIdentifier>{48690697-3a58-40c3-a7fb-0c02d452d812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Graphics\Camera">
+      <UniqueIdentifier>{af48fc68-40a1-4544-91dd-9507055d7dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\TransformFactory">
+      <UniqueIdentifier>{49619829-7bb0-4cda-8380-e9e5f8f0d8a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\MovementFactory">
+      <UniqueIdentifier>{e7db024e-92b7-42f6-9e20-6e58a9091885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Event\Function Handlers">
+      <UniqueIdentifier>{520b7cbd-feb2-48fa-9420-b4262f44e4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Matrix4x4">
+      <UniqueIdentifier>{f21459b1-9621-4fd6-b553-c1c1891d8099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector4D">
+      <UniqueIdentifier>{1d17aae1-280b-4778-bc28-f3eef8233a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector3D">
+      <UniqueIdentifier>{7754ad78-d917-429d-8fb5-f4a1b8db5cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Shapes">
+      <UniqueIdentifier>{673d1dcc-e466-4b30-8eec-faf11e9e4f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Collision">
+      <UniqueIdentifier>{19d5284e-a41e-4d69-a06b-7ad4ffc3e08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Logic">
+      <UniqueIdentifier>{a0a8456e-2169-42bb-a161-275f5548c9e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\AIScript">
+      <UniqueIdentifier>{5b312af4-c38d-4052-b6aa-a5e081faa1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor">
+      <UniqueIdentifier>{accc1b0e-4e48-4bc5-8285-6ea54612eb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Graphics\Font">
+      <UniqueIdentifier>{58a0c41f-2f1d-4d8b-9091-8e9ed83b9ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Animation">
+      <UniqueIdentifier>{22b98ddf-fa62-4963-8541-cb829471fe37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor\EditorObjectSelector">
+      <UniqueIdentifier>{71c3f7de-7ee7-4ae7-8586-4cd6cc61c919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ResourceFactory\ShaderFactory">
+      <UniqueIdentifier>{8125487a-62c8-4938-9ddc-30bd88d6648d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Profile">
+      <UniqueIdentifier>{0fa7cc83-2c6a-41eb-8fdf-d8986b97b822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameState">
+      <UniqueIdentifier>{7181390b-ca6b-415d-85e9-29fe3c74004b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor\EditorConsole">
+      <UniqueIdentifier>{ca6bb484-9482-4f3a-aa6f-4361559f21c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Force">
+      <UniqueIdentifier>{294095d5-fb89-47d3-976d-e79a06df6eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\MovementComponent">
+      <UniqueIdentifier>{25eff26b-afda-49f3-90aa-e154459a2279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ResourceFactory\SpriteSheetFactory">
+      <UniqueIdentifier>{a81bc0da-3acc-472b-9dc8-6d06c363d28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Actors">
+      <UniqueIdentifier>{f7e1f4d2-03a2-4082-9428-79f5edbc445d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ResourceFactory\PrefabActorFactory">
+      <UniqueIdentifier>{e8b6fb5d-2b29-4dee-a9ca-3f886d980407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ScriptComponent">
+      <UniqueIdentifier>{749886bb-fb69-4152-9d73-b30a1676df5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\ScriptFactory">
+      <UniqueIdentifier>{4ae60355-875f-400d-9280-83fc4dcc03b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\AudioComponent">
+      <UniqueIdentifier>{d509f315-d08e-4324-9a7d-9a42e9f20c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor\Inspector">
+      <UniqueIdentifier>{9e031adf-4a73-4c87-adbc-e756b2924d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\AudioFactory">
+      <UniqueIdentifier>{2217dfcc-2208-40dc-943a-0efa053f4a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\StatsComponent">
+      <UniqueIdentifier>{7a24c44a-79f9-4343-bcd4-1e91dd011b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\StatsFactory">
+      <UniqueIdentifier>{6bc44c33-0c95-4646-b821-cfc9fb769685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Audio">
+      <UniqueIdentifier>{21297f9f-78d9-4c00-8788-35a05cffbb5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\ScriptManager">
+      <UniqueIdentifier>{8732adce-5295-4401-a61a-04bba6f08c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Animation\Animation">
+      <UniqueIdentifier>{725ea3e1-7488-4e21-a3cf-a6fedabaa2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ResourceFactory\SceneActorFactory">
+      <UniqueIdentifier>{6b666537-42bb-41d5-998f-4ec0f045dbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameState\GameStateManager">
+      <UniqueIdentifier>{2a1149ce-9d6c-4537-9b6b-9aa97de1d075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor\PerformanceViewer">
+      <UniqueIdentifier>{2a090069-0f2f-4c80-a822-ebe5439e1562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor\EditorContentBrowser">
+      <UniqueIdentifier>{99f76a97-64a9-4377-8ae6-acbaf8925e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor\EditorWorldOutliner">
+      <UniqueIdentifier>{7d93c13b-3345-4986-a75c-1523e3d9a7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor\PrefabEditor">
+      <UniqueIdentifier>{7544be46-2a23-41c9-8337-044a510e97cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Editor\Imgui">
+      <UniqueIdentifier>{b1d6e58b-d4d2-44a9-a17f-78d778ce4535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Miscs">
+      <UniqueIdentifier>{f159a794-926f-46e1-b7a5-d7248225c6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Miscs\Command">
+      <UniqueIdentifier>{afe64c81-7fd1-4d8c-9c62-12adcd8b66c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Miscs\Metadata">
+      <UniqueIdentifier>{dc079d19-f1b6-4247-9d1c-4e5fc8c55026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Miscs\TypeErasedObj">
+      <UniqueIdentifier>{9ec6509f-ab74-474d-9c3e-2abbb5bfc8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Actors\Prefab">
+      <UniqueIdentifier>{012e5adb-1ec5-45b2-b439-9fe5682ceedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Json">
+      <UniqueIdentifier>{7a952f24-ee32-4435-b58c-c91a800b1279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Audio\Audio">
+      <UniqueIdentifier>{94aa4dc9-e8ee-4d3e-87ed-2d136ac6588c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\ButtonComponent">
+      <UniqueIdentifier>{904afd3b-1bb1-4888-b537-4c179f6a78d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Button">
+      <UniqueIdentifier>{45cf8e5d-5cc0-43b6-8876-23c950130227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\ButtonFactory">
+      <UniqueIdentifier>{7c7b5e99-7026-49eb-ab94-6ff24c2934dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\CameraFactory">
+      <UniqueIdentifier>{df4565e5-98e7-4499-9812-e4585526d3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\CameraComponent">
+      <UniqueIdentifier>{fc91c743-10b6-4f90-b7d4-b5f21b4392ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\VolumeComponent">
+      <UniqueIdentifier>{e3f8da86-98f1-4f96-b4fd-3919c1e84a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Random">
+      <UniqueIdentifier>{166e9c5b-b89e-4d29-8e0a-e745149a6c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\CheckpointComponent">
+      <UniqueIdentifier>{b104f7d3-cf4a-4150-a1dd-e9c8f376e209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\CheckpointFactory">
+      <UniqueIdentifier>{2ae5b341-f7a6-4256-857f-309d345cd61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\CheckpointSystem">
+      <UniqueIdentifier>{bcdb4a63-0d69-4022-9ed2-b5147ccfd840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\XBox">
+      <UniqueIdentifier>{d7b9b9a0-f3bd-4dbb-8158-a33741bd996b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Input">
+      <UniqueIdentifier>{c327e830-2bfb-4440-98ed-a6ec9bc088c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components\DialogueComponent">
+      <UniqueIdentifier>{de4264b7-8729-4e2f-a132-27641fb141dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Factory\ComponentFactory\DialogueFactory">
+      <UniqueIdentifier>{dd03429f-79cf-4395-a0ed-aecf78ad8e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Dialogue">
+      <UniqueIdentifier>{7504d3ca-062c-4607-9daa-dece4e4a1f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Systems\Transition">
+      <UniqueIdentifier>{6cf5bbbd-1aca-4661-b906-c3ffdf854dba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ChestNutEngine.rc" />
+  </ItemGroup>
+</Project>

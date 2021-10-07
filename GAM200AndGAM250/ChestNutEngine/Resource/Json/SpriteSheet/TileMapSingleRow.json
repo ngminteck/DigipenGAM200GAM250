@@ -1,0 +1,65 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/TileMapSingleRow.dds",
+        "Sprite_Name": "TileMapSingleRow",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "TILEMAPSINGLEROW",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 256,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "LEFT",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "RIGHT",
+                "Frame": {
+                    "x": 192,
+                    "y": 0,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "CENTERTWO",
+                "Frame": {
+                    "x": 64,
+                    "y": 0,
+                    "w": 128,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "CENTERSINGLE",
+                "Frame": {
+                    "x": 64,
+                    "y": 0,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            }
+        ]
+    }
+}

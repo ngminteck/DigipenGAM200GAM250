@@ -1,0 +1,186 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/WeakSnSSpriteSheet.dds",
+    "Sprite_Name": "WeakSnSSpriteSheet",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+        {
+            "Texture_Name": "LEFT_ATTACK",
+            "Frame": {
+                "x": 0,
+                "y": 0,
+                "w": 280,
+                "h": 232,
+                "numframes": 9,
+                "interval": [ 0.1, 0.1, 0.8, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_ATTACK",
+            "Frame": {
+                "x": 280,
+                "y": 0,
+                "w": -280,
+                "h": 232,
+                "numframes": 9,
+              "interval": [ 0.1, 0.1, 0.8, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_COUNTERSTANCE",
+            "Frame": {
+                "x": 0,
+                "y": 232,
+                "w": 280,
+                "h": 232,
+                "numframes": 6,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 10 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_COUNTERSTANCE",
+            "Frame": {
+                "x": 280,
+                "y": 232,
+                "w": -280,
+                "h": 232,
+                "numframes": 6,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 10 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_COUNTER",
+            "Frame": {
+                "x": 0,
+                "y": 464,
+                "w": 280,
+                "h": 232,
+                "numframes": 13,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_COUNTER",
+            "Frame": {
+                "x": 280,
+                "y": 464,
+                "w": -280,
+                "h": 232,
+                "numframes": 13,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DIE",
+            "Frame": {
+                "x": 0,
+                "y": 696,
+                "w": 280,
+                "h": 232,
+                "numframes": 9,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DIE",
+            "Frame": {
+                "x": 280,
+                "y": 696,
+                "w": -280,
+                "h": 232,
+                "numframes": 9,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DIEFADE",
+            "Frame": {
+                "x": 0,
+                "y": 928,
+                "w": 280,
+                "h": 232,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DIEFADE",
+            "Frame": {
+                "x": 280,
+                "y": 928,
+                "w": -280,
+                "h": 232,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_HURT",
+            "Frame": {
+                "x": 0,
+                "y": 1160,
+                "w": 280,
+                "h": 232,
+                "numframes": 8,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_HURT",
+            "Frame": {
+                "x": 280,
+                "y": 1160,
+                "w": -280,
+                "h": 232,
+                "numframes": 8,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_WALK",
+            "Frame": {
+                "x": 0,
+                "y": 1392,
+                "w": 280,
+                "h": 232,
+                "numframes": 9,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_WALK",
+            "Frame": {
+                "x": 280,
+                "y": 1392,
+                "w": -280,
+                "h": 232,
+                "numframes": 9,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_IDLE",
+            "Frame": {
+                "x": 0,
+                "y": 1392,
+                "w": 280,
+                "h": 232,
+                "numframes": 9,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_IDLE",
+            "Frame": {
+                "x": 280,
+                "y": 1392,
+                "w": -280,
+                "h": 232,
+                "numframes": 9,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        }
+    ]
+  }
+}

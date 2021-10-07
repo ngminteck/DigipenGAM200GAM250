@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/GUIBody_Footer.dds",
+        "Sprite_Name": "GUIBody_Footer",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "GUIBody_Footer",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 2981,
+                    "h": 312,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

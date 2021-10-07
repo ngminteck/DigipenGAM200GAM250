@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/EnemyHitParticles.dds",
+    "Sprite_Name": "EnemyHitParticlesFX",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "EnemyHitParticlesFX",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 240,
+          "h": 225,
+          "numframes": 4,
+          "interval": [ 0.075, 0.075, 0.075, 0.075 ]
+        }
+      }
+    ]
+  }
+}

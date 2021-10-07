@@ -1,0 +1,44 @@
+{
+    "JsonFileType": "Level",
+    "BGM": "Ask Jaryl where the bgm store at? in background? and got ambient sound or not?",
+    "SceneActor": [
+        {
+            "path_key": "Resource/Json/PrefabActor/Tile_CenterNineChunk.json",
+            "object_type_key": "Static_Platform",
+            "scene_actor_name_key": "Tile_CenterNineChunk",
+            "active": true,
+            "m_pos.x": 0.0,
+            "m_pos.y": 960.0,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98,
+            "m_offset.x": 5.0,
+            "m_offset.y": 0.0,
+            "Layer": 2,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/MetricGrid.json",
+            "object_type_key": "Background",
+            "scene_actor_name_key": "MetricGrid",
+            "active": true,
+            "m_pos.x": 0.0,
+            "m_pos.y": 0.0,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "Layer": 4
+        }
+    ],
+    "LevelCoordinate": {
+        "global_coordinate_min_x": -400.5,
+        "global_coordinate_max_x": 400.5,
+        "global_coordinate_min_y": -400.5,
+        "global_coordinate_max_y": 1360.5
+    }
+}

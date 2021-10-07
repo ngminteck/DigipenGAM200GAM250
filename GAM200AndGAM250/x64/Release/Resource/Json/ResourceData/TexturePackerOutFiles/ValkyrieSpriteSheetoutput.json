@@ -1,0 +1,60 @@
+{"frames": {
+
+"Spear_Attack_Sequence":
+{
+	"frame": {"x":5,"y":5,"w":1200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":200},
+	"sourceSize": {"w":1200,"h":200}
+},
+"Spear_Fly_Sequence":
+{
+	"frame": {"x":5,"y":210,"w":1320,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1320,"h":220},
+	"sourceSize": {"w":1320,"h":220}
+},
+"Spear_Walk_Sequence":
+{
+	"frame": {"x":5,"y":435,"w":1200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":200},
+	"sourceSize": {"w":1200,"h":200}
+},
+"SS_Attack_Sequence":
+{
+	"frame": {"x":5,"y":640,"w":1000,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1000,"h":200},
+	"sourceSize": {"w":1000,"h":200}
+},
+"SS_Fly_Sequence":
+{
+	"frame": {"x":5,"y":845,"w":1200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":200},
+	"sourceSize": {"w":1200,"h":200}
+},
+"SS_Walk_Sequence":
+{
+	"frame": {"x":5,"y":1050,"w":1200,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1200,"h":200},
+	"sourceSize": {"w":1200,"h":200}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ValkyrieSpriteSheet.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1c62d7b409ca33d1472c8f5ee67d4491:8cbce9924c5d7ae5d6b15424878cec4e:3419c760d162dbb8e00fc28e68035257$"
+}
+}

@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/PausedMenu_Resume_Hover.dds",
+        "Sprite_Name": "PausedMenu_Resume_Hover",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "PausedMenu_Resume_Hover",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 430,
+                    "h": 190,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "JsonFileType": "Level",
+    "BGM": "Ask Jaryl where the bgm store at? in background? and got ambient sound or not?",
+    "SceneActor": [
+        {
+            "path_key": "Resource/Json/PrefabActor/Tornado_Platform.json",
+            "object_type_key": "Tornado_Platform",
+            "scene_actor_name_key": "Tornado_Platform",
+            "active": true,
+            "m_pos.x": -25.924999,
+            "m_pos.y": -13.808333,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Surtur.json",
+            "object_type_key": "Player",
+            "scene_actor_name_key": "Surtur",
+            "active": true,
+            "m_pos.x": 0.245838,
+            "m_pos.y": 3.603332,
+            "m_Scale.x": 3.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 0.8,
+            "m_aabbScale.y": 0.8,
+            "child_scene_actor_container": [
+                {
+                    "path_key": "Resource/Json/PrefabActor/Static_Platform.json",
+                    "object_type_key": "Static_Platform",
+                    "scene_actor_name_key": "Static_Platform",
+                    "active": true,
+                    "m_pos.x": 5.245838,
+                    "m_pos.y": 3.586665,
+                    "m_Scale.x": 7.0,
+                    "m_Scale.y": 3.0,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 0.98
+                }
+            ]
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Crumbling_Platform.json",
+            "object_type_key": "Crumbling_Platform",
+            "scene_actor_name_key": "Crumbling_Platform",
+            "active": true,
+            "m_pos.x": -18.191665,
+            "m_pos.y": -12.875,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Pit_Traps.json",
+            "object_type_key": "Pit_Traps",
+            "scene_actor_name_key": "Pit_Traps",
+            "active": true,
+            "m_pos.x": -33.125,
+            "m_pos.y": 7.75,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Moving_Platform.json",
+            "object_type_key": "Moving_Platform",
+            "scene_actor_name_key": "Moving_Platform",
+            "active": true,
+            "m_pos.x": -19.133335,
+            "m_pos.y": -13.199997,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Oneway_Platform.json",
+            "object_type_key": "Oneway_Platform",
+            "scene_actor_name_key": "Oneway_Platform",
+            "active": true,
+            "m_pos.x": -21.25,
+            "m_pos.y": 0.25,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 7.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Timed_Platform.json",
+            "object_type_key": "Timed_Platform",
+            "scene_actor_name_key": "Timed_Platform",
+            "active": true,
+            "m_pos.x": -29.258333,
+            "m_pos.y": -6.741663,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Static_Platform.json",
+            "object_type_key": "Static_Platform",
+            "scene_actor_name_key": "Static_Platform",
+            "active": true,
+            "m_pos.x": -0.133331,
+            "m_pos.y": 0.933332,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98
+        }
+    ],
+    "LevelCoordinate": {
+        "global_coordinate_min_x": -436.625,
+        "global_coordinate_max_x": 408.745849,
+        "global_coordinate_min_y": -415.308319,
+        "global_coordinate_max_y": 409.25
+    }
+}

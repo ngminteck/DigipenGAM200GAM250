@@ -1,0 +1,35 @@
+{
+  "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Boss/AmunraFireSpriteSheet.dds",
+        "Sprite_Name": "AmunraFireSpriteSheet",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "AmunraFire",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 300,
+                    "h": 300,
+                    "numframes": 13,
+                    "interval": [
+                        0.08,
+                        0.08,
+                        0.08,
+                        0.08,
+                        0.08,
+                        0.08,
+                        0.08,
+						0.08,
+						0.08,
+						0.08,
+						0.08,
+						0.08,
+						0.08
+                    ]
+                }
+            }
+        ]
+    }
+}

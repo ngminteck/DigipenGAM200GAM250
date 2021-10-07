@@ -1,0 +1,190 @@
+{
+    "JsonFileType": "Level",
+    "SceneActor": [
+        {
+            "scene_actor_prefab_type_key": "ColliderBox",
+            "path_key": "Resource/Json/PrefabActor/ColliderBox.json",
+            "object_type_key": "ColliderBox",
+            "scene_actor_name_key": "ColliderBox",
+            "active": true,
+            "m_Pos.x": -0.734247,
+            "m_Pos.y": -0.899249,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 200.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0
+        },
+        {
+            "scene_actor_prefab_type_key": "Tile_TopLeft",
+            "path_key": "Resource/Json/PrefabActor/Tile_TopLeft.json",
+            "object_type_key": "Static_Platform",
+            "scene_actor_name_key": "Tile_TopLeft",
+            "active": true,
+            "m_Pos.x": -0.082497,
+            "m_Pos.y": -0.907499,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 200.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 1,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0
+        },
+        {
+            "scene_actor_prefab_type_key": "DialogueTriggerBox",
+            "path_key": "Resource/Json/PrefabActor/DialogueTriggerBox.json",
+            "object_type_key": "TriggerBox",
+            "scene_actor_name_key": "DialogueTriggerBox",
+            "active": true,
+            "m_Pos.x": -1.080749,
+            "m_Pos.y": 0.131999,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 2,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0,
+            "ComponentType": "DialogueComponent",
+            "DialogueID": 0,
+            "Dialogues": [
+                {
+                    "Dialogue Text": "1a_yawn"
+                },
+                {
+                    "Dialogue Text": "1b_bored"
+                },
+                {
+                    "Dialogue Text": "1c_FunIs"
+                },
+                {
+                    "Dialogue Text": "1d_DestroyWorldIs"
+                },
+                {
+                    "Dialogue Text": "1e_FunIsDestroyWorld"
+                }
+            ]
+        },
+        {
+            "scene_actor_prefab_type_key": "NotPrefab",
+            "scene_actor_name_key": "Dialogue Box",
+            "active": true,
+            "Component": [
+                {
+                    "ComponentType": "TransformComponent",
+                    "m_Pos.x": 640.0,
+                    "m_Pos.y": 150.0,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 500.0,
+                    "m_Scale.y": 100.0,
+                    "m_Scale.z": 0.0,
+                    "m_Translate.x": 640.0,
+                    "m_Translate.y": 150.0,
+                    "m_Translate.z": 0.0
+                },
+                {
+                    "ComponentType": "SpriteComponent",
+                    "Sprite_Name": "1a_yawn",
+                    "Texture_Name": "1a_yawn",
+                    "Animated_Texture": false,
+                    "Orthogonal_Camera": true,
+                    "Layer": 4
+                },
+                {
+                    "ComponentType": "AudioComponent",
+                    "audioMap": [
+                        {
+                            "Path": "NO AUDIO",
+                            "Volume": 0.17,
+                            "Loop": true,
+                            "State": "IDLE"
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": "ButtonComponent",
+                    "isHovered": false,
+                    "Active Texture": "How To Play",
+                    "Inactive Texture": "",
+                    "Button ID": 0,
+                    "Trigger Type": 0,
+                    "Game State": "",
+                    "Menu ID": 0,
+                    "isMenu": false,
+                    "Next Menu": -1,
+                    "Section ID": 0,
+                    "Icon": -1,
+                    "Navigate": "NO AUDIO",
+                    "Enter": "NO AUDIO"
+                }
+            ]
+        },
+        {
+            "scene_actor_prefab_type_key": "DialogueTriggerBox",
+            "path_key": "Resource/Json/PrefabActor/DialogueTriggerBox.json",
+            "object_type_key": "TriggerBox",
+            "scene_actor_name_key": "DialogueTriggerBox(2)",
+            "active": true,
+            "m_Pos.x": 2.949295,
+            "m_Pos.y": 0.143661,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 2,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0,
+            "ComponentType": "DialogueComponent",
+            "DialogueID": 1,
+            "Dialogues": [
+                {
+                    "Dialogue Text": "3a_SoMany"
+                },
+                {
+                    "Dialogue Text": "1b_bored"
+                }
+            ]
+        }
+    ],
+    "LevelCoordinate": {
+        "global_coordinate_min_x": -100.082496,
+        "global_coordinate_max_x": 99.917503,
+        "global_coordinate_min_y": -1.407499,
+        "global_coordinate_max_y": -0.407499
+    }
+}

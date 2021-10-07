@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/PROP-Vase01.dds",
+        "Sprite_Name": "PROP-Vase01",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "PROP-Vase01",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 62,
+                    "h": 118,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

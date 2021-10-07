@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/5b_Why.dds",
+        "Sprite_Name": "5b_Why",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "5b_Why",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 900,
+                    "h": 197,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "Animation":
+  [
+    {
+      "ObjectName": "Platform",
+      "Name":  "MUSPELL_FLOOR_1",
+      "Frame": 
+      {
+        "x":1689,
+        "y":1476,
+        "w":1697,
+        "h":439,
+        "numframes":1,
+        "interval": 0
+      }
+    },    
+    {
+      "ObjectName":  "Platform",
+      "Name":  "MUSPELL_FLOOR_2",
+      "Frame": 
+      {
+        "x":1959,
+        "y":1023,
+        "w":1697,
+        "h":448,
+        "numframes":1,
+        "interval": 0
+      }
+    },
+    {
+      "ObjectName":  "Platform",
+      "Name":  "MUSPELL_FLOOR_3",
+      "Frame": 
+      {
+        "x":0,
+        "y":155,
+        "w":2048,
+        "h":806,
+        "numframes":1,
+        "interval": 0
+      }
+    },
+    {
+      "ObjectName":  "Trap",
+      "Name":  "MUSPELL_TRAP_CLOSED_1",
+      "Frame": 
+      {
+        "x":0,
+        "y":966,
+        "w":1954,
+        "h":348,
+        "numframes":1,
+        "interval": 0
+      }
+    },
+    {
+      "ObjectName":  "Trap",
+      "Name":  "MUSPELL_TRAP_OPEN_1",
+      "Frame": 
+      {
+        "x":2105,
+        "y":0,
+        "w":1954,
+        "h":1018,
+        "numframes":1,
+        "interval": 0
+      }
+    }
+  ]
+}

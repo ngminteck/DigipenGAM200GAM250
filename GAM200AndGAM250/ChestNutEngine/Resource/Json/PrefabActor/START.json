@@ -1,0 +1,46 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "",
+        "prefab_name_key": "START",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 1000.0,
+                "m_Pos.y": 560.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 200.0,
+                "m_Scale.y": 100.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 1000.0,
+                "m_Translate.y": 560.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "MainMenu_START_Normal",
+                "Texture_Name": "MainMenu_START_Normal",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": true,
+                "Layer": 4
+            },
+            {
+                "ComponentType": "ButtonComponent",
+                "isHovered": false,
+                "Active Texture": "MainMenu_START_Hover",
+                "Inactive Texture": "MainMenu_START_Normal",
+                "Button ID": 0,
+                "Trigger Type": 1,
+                "Game State": "Resource\\Json\\Level\\One.json",
+                "Menu ID": 0,
+                "isMenu": false,
+                "Next Menu": -1,
+                "Section ID": 0,
+                "Icon": -1,
+                "Navigate": "NO AUDIO",
+                "Enter": "NO AUDIO"
+            }
+        ]
+    }
+}

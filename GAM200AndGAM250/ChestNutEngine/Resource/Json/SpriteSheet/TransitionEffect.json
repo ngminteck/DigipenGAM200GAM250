@@ -1,0 +1,54 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/TransitionEffect.dds",
+    "Sprite_Name": "TransitionEffect",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "Transition_FadeToBlack",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 256,
+          "numframes": 16,
+          "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+        }
+      },
+	  {
+        "Texture_Name": "Transition_FadeFromBlack",
+        "Frame": {
+          "x": 1024,
+          "y": 0,
+          "w": -128,
+          "h": 256,
+          "numframes": 16,
+          "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+        }
+      },
+	  {
+        "Texture_Name": "Transition_Wipe",
+        "Frame": {
+          "x": 0,
+          "y": 256,
+          "w": 128,
+          "h": 256,
+          "numframes": 16,
+          "interval": [ 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032, 0.032 ]
+        }
+      },
+	  {
+        "Texture_Name": "Transition_Whiteout",
+        "Frame": {
+          "x": 0,
+          "y": 512,
+          "w": 128,
+          "h": 256,
+          "numframes": 9,
+          "interval": [ 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008]
+        }
+      }
+    ]
+  }
+}

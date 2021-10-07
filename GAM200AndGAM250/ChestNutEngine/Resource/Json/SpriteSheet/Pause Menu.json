@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Pause Menu.dds",
+        "Sprite_Name": "Pause Menu",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Pause Menu",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 4096,
+                    "h": 4096,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

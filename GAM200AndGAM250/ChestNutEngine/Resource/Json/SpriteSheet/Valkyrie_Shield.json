@@ -1,0 +1,219 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Valkyrie_Shield.dds",
+    "Sprite_Name": "Valkyrie_Shield",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+        {
+            "Texture_Name": "LEFT_VALKS_BASH",
+            "Frame": {
+                "x": 0,
+                "y": 0,
+                "w": 274,
+                "h": 220,
+                "numframes": 7,
+                "interval": [ 0.05, 0.0, 0.05, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_VALKS_BASH",
+            "Frame": {
+                "x": 274,
+                "y": 0,
+                "w": -274,
+                "h": 220,
+                "numframes": 7,
+                "interval": [ 0.05, 0.0, 0.05, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_VALKS_DIE",
+            "Frame": {
+                "x": 0,
+                "y": 220,
+                "w": 274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_VALKS_DIE",
+            "Frame": {
+                "x": 274,
+                "y": 220,
+                "w": -274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_VALKS_DIEFADE",
+            "Frame": {
+                "x": 0,
+                "y": 440,
+                "w": 274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_VALKS_DIEFADE",
+            "Frame": {
+                "x": 274,
+                "y": 440,
+                "w": -274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_VALKS_HURT",
+            "Frame": {
+                "x": 0,
+                "y": 660,
+                "w": 274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_VALKS_HURT",
+            "Frame": {
+                "x": 274,
+                "y": 660,
+                "w": -274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DASH",
+            "Frame": {
+                "x": 0,
+                "y": 880,
+                "w": 274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DASH",
+            "Frame": {
+                "x": 274,
+                "y": 880,
+                "w": -274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_VALKS_WALK",
+            "Frame": {
+                "x": 0,
+                "y": 880,
+                "w": 274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_VALKS_WALK",
+            "Frame": {
+                "x": 274,
+                "y": 880,
+                "w": -274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_VALKS_IDLE",
+            "Frame": {
+                "x": 0,
+                "y": 880,
+                "w": 274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_VALKS_IDLE",
+            "Frame": {
+                "x": 274,
+                "y": 880,
+                "w": -274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_VALKS_DASHWINDUP",
+            "Frame": {
+                "x": 0,
+                "y": 1100,
+                "w": 274,
+                "h": 220,
+                "numframes": 5,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 1.6 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_VALKS_DASHWINDUP",
+            "Frame": {
+                "x": 274,
+                "y": 1100,
+                "w": -274,
+                "h": 220,
+                "numframes": 5,
+                "interval": [ 0.15, 0.15, 0.15, 0.15, 1.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_VALKS_HOPBACK",
+            "Frame": {
+                "x": 0,
+                "y": 1100,
+                "w": 274,
+                "h": 220,
+                "numframes": 5,
+                "interval": [ 0.5, 0.5, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_VALKS_HOPBACK",
+            "Frame": {
+                "x": 274,
+                "y": 1100,
+                "w": -274,
+                "h": 220,
+                "numframes": 5,
+                "interval": [ 0.5, 0.5, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "VALKS_SHIELD_MOVE",
+            "Frame": {
+                "x": 0,
+                "y": 1540,
+                "w": 274,
+                "h": 220,
+                "numframes": 3,
+                "interval": [ 0.016, 0.016, 0.016 ]
+            }
+        }
+    ]
+  }
+}

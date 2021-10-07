@@ -1,0 +1,274 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Heliopolis_Tilemap.dds",
+    "Sprite_Name": "Heliopolis_Tilemap",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+        {
+            "Texture_Name": "Sandstone_Topleft",
+            "Frame": {
+                "x": 1,
+                "y": 1,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_TopCenter",
+            "Frame": {
+                "x": 65,
+                "y": 1,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_TopRight",
+            "Frame": {
+                "x": 129,
+                "y": 1,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_MiddleLeft",
+            "Frame": {
+                "x": 1,
+                "y": 65,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_MiddleCenter",
+            "Frame": {
+                "x": 65,
+                "y": 65,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_MiddleRight",
+            "Frame": {
+                "x": 129,
+                "y": 65,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_BottomLeft",
+            "Frame": {
+                "x": 1,
+                "y": 129,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_BottomCenter",
+            "Frame": {
+                "x": 65,
+                "y": 129,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_BottomRight",
+            "Frame": {
+                "x": 129,
+                "y": 129,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_BottomLeftConnect",
+            "Frame": {
+                "x": 1,
+                "y": 193,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_BottomRightConnect",
+            "Frame": {
+                "x": 129,
+                "y": 193,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_TopLeftConnect",
+            "Frame": {
+                "x": 1,
+                "y": 321,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Sandstone_TopRightConnect",
+            "Frame": {
+                "x": 129,
+                "y": 321,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_TopLeft",
+            "Frame": {
+                "x": 193,
+                "y": 1,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_TopCenter",
+            "Frame": {
+                "x": 257,
+                "y": 1,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_TopRight",
+            "Frame": {
+                "x": 321,
+                "y": 1,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_MiddleLeft",
+            "Frame": {
+                "x": 193,
+                "y": 65,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_MiddleCenter",
+            "Frame": {
+                "x": 257,
+                "y": 65,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_MiddleRight",
+            "Frame": {
+                "x": 321,
+                "y": 65,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_BottomLeft",
+            "Frame": {
+                "x": 193,
+                "y": 129,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_BottomCenter",
+            "Frame": {
+                "x": 257,
+                "y": 129,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Brick_Blue_BottomRight",
+            "Frame": {
+                "x": 321,
+                "y": 129,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Torch_Top_Off",
+            "Frame": {
+                "x": 1,
+                "y": 385,
+                "w": 62,
+                "h": 126,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "Torch_Top_On",
+            "Frame": {
+                "x": 65,
+                "y": 385,
+                "w": 62,
+                "h": 126,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        }
+    ]
+  }
+}

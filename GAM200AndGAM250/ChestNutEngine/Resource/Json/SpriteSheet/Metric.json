@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Metric.dds",
+        "Sprite_Name": "Metric",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "METRIC",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 2000,
+                    "h": 2000,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

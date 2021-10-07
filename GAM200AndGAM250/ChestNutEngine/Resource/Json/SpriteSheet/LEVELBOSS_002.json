@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Boss/002-Background.dds",
+    "Sprite_Name": "LevelBoss_002",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "LevelBoss_002",
+        "Frame": {
+          "x": 1,
+          "y": 1,
+          "w": 4000,
+          "h": 1269,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

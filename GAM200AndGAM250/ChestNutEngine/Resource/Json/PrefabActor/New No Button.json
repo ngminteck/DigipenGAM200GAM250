@@ -1,0 +1,46 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "New Button",
+        "prefab_name_key": "New No Button",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 10.0,
+                "m_Scale.y": 5.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 0.0,
+                "m_Translate.y": 30.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "No Dark Button",
+                "Texture_Name": "No Dark Button",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": false,
+                "Layer": 1
+            },
+            {
+                "ComponentType": "ButtonComponent",
+                "isHovered": false,
+                "Active Texture": "No Button",
+                "Inactive Texture": "No Dark Button",
+                "Button ID": 0,
+                "Trigger Type": 0,
+                "Game State": "",
+                "Menu ID": 0,
+                "isMenu": false,
+                "Next Menu": 0,
+                "Section ID": 0,
+                "Icon": -1,
+                "Navigate": "NO AUDIO",
+                "Enter": "NO AUDIO"
+            }
+        ]
+    }
+}

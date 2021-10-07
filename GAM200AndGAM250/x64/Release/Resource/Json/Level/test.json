@@ -1,0 +1,291 @@
+{
+    "JsonFileType": "Level",
+    "BGM": "Ask Jaryl where the bgm store at? in background? and got ambient sound or not?",
+    "SceneActor": [
+        {
+            "path_key": "Resource/Json/PrefabActor/Static_Platform.json",
+            "object_type_key": "Static_Platform",
+            "scene_actor_name_key": "Static_Platform",
+            "active": true,
+            "m_pos.x": -0.133331,
+            "m_pos.y": 0.933332,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98,
+            "m_offset.x": 5.0,
+            "m_offset.y": 0.0,
+            "Layer": 2
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/UIFrame.json",
+            "object_type_key": "User_Interface",
+            "scene_actor_name_key": "UIFrame",
+            "active": true,
+            "m_pos.x": 200.0,
+            "m_pos.y": 680.0,
+            "m_Scale.x": 500.0,
+            "m_Scale.y": 250.0,
+            "Layer": 3,
+            "child_scene_actor_container": [
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIHPLarge.json",
+                    "object_type_key": "Default",
+                    "scene_actor_name_key": "UIHPLarge(5)",
+                    "active": true,
+                    "m_pos.x": 220.0,
+                    "m_pos.y": 735.0,
+                    "m_Scale.x": 31.5,
+                    "m_Scale.y": 64.5
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIBarStart.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBarStart",
+                    "active": true,
+                    "m_pos.x": 199.0,
+                    "m_pos.y": 680.5,
+                    "m_Scale.x": 3.0,
+                    "m_Scale.y": 30.0
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIBarFill.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBarFill",
+                    "active": true,
+                    "m_pos.x": 252.141906,
+                    "m_pos.y": 680.5,
+                    "m_Scale.x": 104.283851,
+                    "m_Scale.y": 30.0
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall(4)",
+                    "active": true,
+                    "m_pos.x": 110.0,
+                    "m_pos.y": 738.0,
+                    "m_Scale.x": 35.0,
+                    "m_Scale.y": 35.0
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall",
+                    "active": true,
+                    "m_pos.x": 160.0,
+                    "m_pos.y": 709.0,
+                    "m_Scale.x": 35.0,
+                    "m_Scale.y": 35.0
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall(2)",
+                    "active": true,
+                    "m_pos.x": 160.0,
+                    "m_pos.y": 652.0,
+                    "m_Scale.x": 35.0,
+                    "m_Scale.y": 35.0
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall(3)",
+                    "active": true,
+                    "m_pos.x": 110.0,
+                    "m_pos.y": 623.0,
+                    "m_Scale.x": 35.0,
+                    "m_Scale.y": 35.0
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall(5)",
+                    "active": true,
+                    "m_pos.x": 62.0,
+                    "m_pos.y": 652.0,
+                    "m_Scale.x": 35.0,
+                    "m_Scale.y": 35.0
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIBall.json",
+                    "object_type_key": "User_Interface",
+                    "scene_actor_name_key": "UIBall(6)",
+                    "active": true,
+                    "m_pos.x": 62.0,
+                    "m_pos.y": 709.0,
+                    "m_Scale.x": 35.0,
+                    "m_Scale.y": 35.0
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIHPLarge.json",
+                    "object_type_key": "Default",
+                    "scene_actor_name_key": "UIHPLarge",
+                    "active": true,
+                    "m_pos.x": 255.0,
+                    "m_pos.y": 735.0,
+                    "m_Scale.x": 31.5,
+                    "m_Scale.y": 64.5
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIHPLarge.json",
+                    "object_type_key": "Default",
+                    "scene_actor_name_key": "UIHPLarge(2)",
+                    "active": true,
+                    "m_pos.x": 290.0,
+                    "m_pos.y": 735.0,
+                    "m_Scale.x": 31.5,
+                    "m_Scale.y": 64.5
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIHPLarge.json",
+                    "object_type_key": "Default",
+                    "scene_actor_name_key": "UIHPLarge(3)",
+                    "active": true,
+                    "m_pos.x": 325.0,
+                    "m_pos.y": 735.0,
+                    "m_Scale.x": 31.5,
+                    "m_Scale.y": 64.5
+                },
+                {
+                    "path_key": "Resource/Json/PrefabActor/UIHPLarge.json",
+                    "object_type_key": "Default",
+                    "scene_actor_name_key": "UIHPLarge(4)",
+                    "active": true,
+                    "m_pos.x": 360.0,
+                    "m_pos.y": 735.0,
+                    "m_Scale.x": 31.5,
+                    "m_Scale.y": 64.5
+                }
+            ]
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Tornado_Platform.json",
+            "object_type_key": "Tornado_Platform",
+            "scene_actor_name_key": "Tornado_Platform",
+            "active": true,
+            "m_pos.x": -25.924999,
+            "m_pos.y": -13.808333,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Layer": 0
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Surtur.json",
+            "object_type_key": "Player",
+            "scene_actor_name_key": "Surtur",
+            "active": true,
+            "m_pos.x": -1.170825,
+            "m_pos.y": 3.153331,
+            "m_Scale.x": 3.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 0.4,
+            "m_aabbScale.y": 0.5,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Layer": 0,
+            "child_scene_actor_container": [
+                {
+                    "path_key": "Resource/Json/PrefabActor/Static_Platform.json",
+                    "object_type_key": "Static_Platform",
+                    "scene_actor_name_key": "Static_Platform(2)",
+                    "active": true,
+                    "m_pos.x": 3.829174,
+                    "m_pos.y": 3.153331,
+                    "m_Scale.x": 7.0,
+                    "m_Scale.y": 3.0,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 0.98,
+                    "m_offset.x": 5.0,
+                    "m_offset.y": 0.0
+                }
+            ]
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Crumbling_Platform.json",
+            "object_type_key": "Crumbling_Platform",
+            "scene_actor_name_key": "Crumbling_Platform",
+            "active": true,
+            "m_pos.x": -18.191665,
+            "m_pos.y": -12.875,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Layer": 0
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Pit_Traps.json",
+            "object_type_key": "Pit_Traps",
+            "scene_actor_name_key": "Pit_Traps",
+            "active": true,
+            "m_pos.x": -33.125,
+            "m_pos.y": 7.75,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Layer": 0
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Moving_Platform.json",
+            "object_type_key": "Moving_Platform",
+            "scene_actor_name_key": "Moving_Platform",
+            "active": true,
+            "m_pos.x": 42.76633,
+            "m_pos.y": -13.199995,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Layer": 0
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Oneway_Platform.json",
+            "object_type_key": "Oneway_Platform",
+            "scene_actor_name_key": "Oneway_Platform",
+            "active": true,
+            "m_pos.x": -21.25,
+            "m_pos.y": 0.25,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 7.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Layer": 0
+        },
+        {
+            "path_key": "Resource/Json/PrefabActor/Timed_Platform.json",
+            "object_type_key": "Timed_Platform",
+            "scene_actor_name_key": "Timed_Platform",
+            "active": true,
+            "m_pos.x": -29.258333,
+            "m_pos.y": -6.741662,
+            "m_Scale.x": 7.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 0.98,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Layer": 0
+        }
+    ],
+    "LevelCoordinate": {
+        "global_coordinate_min_x": -450.0,
+        "global_coordinate_max_x": 850.0,
+        "global_coordinate_min_y": -415.308319,
+        "global_coordinate_max_y": 1205.0
+    }
+}

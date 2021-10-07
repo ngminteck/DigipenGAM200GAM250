@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Pause_Panel.dds",
+        "Sprite_Name": "Pause_Panel",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Pause_Panel",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 603,
+                    "h": 957,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

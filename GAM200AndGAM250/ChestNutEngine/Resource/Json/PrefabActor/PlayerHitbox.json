@@ -1,0 +1,111 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "PlayerHitbox",
+        "prefab_name_key": "PlayerHitbox",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "RigidBodyComponent",
+                "m_accel.x": 0.0,
+                "m_accel.y": 0.0,
+                "m_counter": 0.0,
+                "m_direction.x": 0.0,
+                "m_direction.y": 0.0,
+                "m_duration": 0.0,
+                "m_gravity": 60.0,
+                "m_hasGravity": true,
+                "m_hitCeiling": false,
+                "m_isMoving": false,
+                "m_isStaticObj": false,
+                "m_mass": 1.0,
+                "m_modA": 0.0,
+                "m_modB": 0.0,
+                "m_modC": 0.0,
+                "m_objType": "PLAYER_HIT",
+                "m_onGround": false,
+                "m_pushLeft": false,
+                "m_pushRight": false,
+                "m_startTime": 0.0,
+                "m_vel.x": 0.0,
+                "m_vel.y": 0.0
+            },
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 1.0,
+                "m_Scale.y": 1.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 0.0,
+                "m_Translate.y": 0.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "Existence",
+                "Texture_Name": "LEFT_EXIST",
+                "Animated_Texture": true,
+                "Orthogonal_Camera": false,
+                "Layer": 2
+            },
+            {
+                "ComponentType": "AABBComponent",
+                "m_aabbScale.x": 0.5,
+                "m_aabbScale.y": 0.5,
+                "m_max.x": 0.0,
+                "m_max.y": 0.0,
+                "m_min.x": 0.0,
+                "m_min.y": 0.0,
+                "m_offset.x": 0.0,
+                "m_offset.y": 0.0,
+                "m_rect.0.x": 0.0,
+                "m_rect.0.y": 0.0,
+                "m_rect.1.x": 0.0,
+                "m_rect.1.y": 0.0,
+                "m_rect.2.x": 0.0,
+                "m_rect.2.y": 0.0,
+                "m_rect.3.x": 0.0,
+                "m_rect.3.y": 0.0
+            },
+            {
+                "ComponentType": "ScriptComponent",
+                "Script": [
+                    {
+                        "Path": "Resource/Scripts/PlayerHitbox.lua",
+                        "State": "EXIST"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "CollisionComponent",
+                "collideBigPunchHitbox": false,
+                "collideEnemyCounterHitbox": false,
+                "collideEnemyDashHitbox": false,
+                "collideEnemyHitbox": false,
+                "collidePlayerDashHitbox": false,
+                "collidePlayerHitbox": false,
+                "isColliding": false,
+                "isCollidingBottom": false,
+                "isCollidingLeft": false,
+                "isCollidingRight": false,
+                "isCollidingTop": false,
+                "isCollidingvsCheckpoint": false,
+                "isCollidingvsCollider": false,
+                "isCollidingvsCrumbling": false,
+                "isCollidingvsDIn": false,
+                "isCollidingvsDOut": false,
+                "isCollidingvsEndGameBox": false,
+                "isCollidingvsEnemy": false,
+                "isCollidingvsMoving": false,
+                "isCollidingvsPit": false,
+                "isCollidingvsPopup": false,
+                "isCollidingvsRespawn": false,
+                "isCollidingvsSwitch": false,
+                "isCollidingvsTornado": false,
+                "isCollidingvsTrigger": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,1105 @@
+{
+    "JsonFileType": "Level",
+    "SceneActor": [
+        {
+            "scene_actor_prefab_type_key": "Surtur",
+            "path_key": "Resource/Json/PrefabActor/Surtur.json",
+            "object_type_key": "Player",
+            "scene_actor_name_key": "Surtur",
+            "active": true,
+            "m_Pos.x": 8.199966,
+            "m_Pos.y": -0.497843,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 3.0,
+            "m_Scale.y": 3.0,
+            "m_aabbScale.x": 0.2,
+            "m_aabbScale.y": 0.33,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 12,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0,
+            "ComponentType": "AudioComponent",
+            "audioMap": [
+                {
+                    "Path": "Resource/Audio/PlayerSlash.wav",
+                    "Volume": 0.699998,
+                    "Loop": false,
+                    "State": "ATTACK1"
+                },
+                {
+                    "Path": "Resource/Audio/PlayerSlash.wav",
+                    "Volume": 0.699998,
+                    "Loop": false,
+                    "State": "ATTACK2"
+                },
+                {
+                    "Path": "Resource/Audio/PlayerSlash.wav",
+                    "Volume": 0.699998,
+                    "Loop": false,
+                    "State": "ATTACK3"
+                },
+                {
+                    "Path": "Resource/Audio/PlayerDash.wav",
+                    "Volume": 0.5,
+                    "Loop": false,
+                    "State": "DASH"
+                },
+                {
+                    "Path": "Resource/Audio/PlayerDeath.wav",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "DIE"
+                },
+                {
+                    "Path": "Resource/Audio/PlayerDoubleJump.wav",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "DOUBLEJUMP"
+                },
+                {
+                    "Path": "NO AUDIO",
+                    "Volume": 0.0,
+                    "Loop": false,
+                    "State": "FALL"
+                },
+                {
+                    "Path": "Resource/Audio/ValkyrieSpearHit.wav",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "HURT"
+                },
+                {
+                    "Path": "NO AUDIO",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "IDLE"
+                },
+                {
+                    "Path": "Resource/Audio/PlayerJump.wav",
+                    "Volume": 0.3,
+                    "Loop": false,
+                    "State": "JUMP"
+                },
+                {
+                    "Path": "Resource/Audio/PlayerSlash.wav",
+                    "Volume": 0.699998,
+                    "Loop": false,
+                    "State": "JUMPATTACK"
+                },
+                {
+                    "Path": "NO AUDIO",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "LAND"
+                },
+                {
+                    "Path": "Resource/Audio/SawCollision.wav",
+                    "Volume": 0.5,
+                    "Loop": false,
+                    "State": "RESPAWN"
+                },
+                {
+                    "Path": "Resource/Audio/PlayerWalk.wav",
+                    "Volume": 0.5,
+                    "Loop": false,
+                    "State": "WALK"
+                }
+            ],
+            "cam_pos_x": -1.96428,
+            "cam_pos_y": 2.53131,
+            "cam_pos_z": 6.000009,
+            "cam_front_x": 0.0,
+            "cam_front_y": 0.0,
+            "cam_front_z": -1.0,
+            "cam_up_x": 0.0,
+            "cam_up_y": 1.0,
+            "cam_up_z": 0.0,
+            "cam_offset_pos_x": 0.0,
+            "cam_offset_pos_y": 1.0,
+            "child_scene_actor_container": [
+                {
+                    "scene_actor_prefab_type_key": "PlayerDashHitbox",
+                    "path_key": "Resource/Json/PrefabActor/PlayerDashHitbox.json",
+                    "object_type_key": "PlayerHitbox",
+                    "scene_actor_name_key": "PlayerDashHitbox",
+                    "active": false,
+                    "m_Pos.x": 8.799966,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 0.5,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": -0.6,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": 0.0,
+                    "m_modB": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerDashHitbox"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "SurtrSummonPunch",
+                    "path_key": "Resource/Json/PrefabActor/SurtrSummonPunch.json",
+                    "object_type_key": "Background",
+                    "scene_actor_name_key": "SurtrSummonPunch",
+                    "active": false,
+                    "m_Pos.x": 8.199966,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 8.0,
+                    "m_Scale.y": 4.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "SurtrSummonPunch"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "Black Screen",
+                    "path_key": "Resource/Json/PrefabActor/Black Screen.json",
+                    "object_type_key": "Background",
+                    "scene_actor_name_key": "Black Screen",
+                    "active": true,
+                    "m_Pos.x": 640.0,
+                    "m_Pos.y": 400.0,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 0.0,
+                    "m_Scale.y": 0.0,
+                    "Orthogonal_Camera": true,
+                    "Layer": 13,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Black Screen"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerChargeHitbox",
+                    "path_key": "Resource/Json/PrefabActor/PlayerChargeHitbox.json",
+                    "object_type_key": "PlayerHitbox",
+                    "scene_actor_name_key": "PlayerChargeHitbox",
+                    "active": false,
+                    "m_Pos.x": 10.099965,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 3.0,
+                    "m_aabbScale.y": 2.0,
+                    "m_offset.x": -1.899999,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": 0.0,
+                    "m_modB": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerChargeHitbox"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerGroundPoundHitbox",
+                    "path_key": "Resource/Json/PrefabActor/PlayerGroundPoundHitbox.json",
+                    "object_type_key": "PlayerHitbox",
+                    "scene_actor_name_key": "PlayerGroundPoundHitbox1",
+                    "active": false,
+                    "m_Pos.x": 8.199966,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 2.0,
+                    "m_aabbScale.y": 2.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": 0.0,
+                    "m_modB": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerGroundPoundHitbox"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerGroundPoundHitbox",
+                    "path_key": "Resource/Json/PrefabActor/PlayerGroundPoundHitbox.json",
+                    "object_type_key": "PlayerHitbox",
+                    "scene_actor_name_key": "PlayerGroundPoundHitbox2",
+                    "active": false,
+                    "m_Pos.x": 8.199966,
+                    "m_Pos.y": 0.002156,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 6.0,
+                    "m_aabbScale.y": 3.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": 0.5,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": 0.0,
+                    "m_modB": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerGroundPoundHitbox"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "BigPunchHitbox",
+                    "path_key": "Resource/Json/PrefabActor/BigPunchHitbox.json",
+                    "object_type_key": "PlayerHitbox",
+                    "scene_actor_name_key": "BigPunchHitbox",
+                    "active": false,
+                    "m_Pos.x": 10.199966,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": -2.0,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": 0.0,
+                    "m_modB": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "BigPunchHitbox"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerHitbox",
+                    "path_key": "Resource/Json/PrefabActor/PlayerHitbox.json",
+                    "object_type_key": "PlayerHitbox",
+                    "scene_actor_name_key": "PlayerHitbox",
+                    "active": false,
+                    "m_Pos.x": 9.399966,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.399999,
+                    "m_Scale.y": 1.2,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": -1.2,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": 0.0,
+                    "m_modB": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerHitbox"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerHitbox",
+                    "path_key": "Resource/Json/PrefabActor/PlayerHitbox.json",
+                    "object_type_key": "PlayerHitbox",
+                    "scene_actor_name_key": "PlayerHitbox(2)",
+                    "active": false,
+                    "m_Pos.x": 8.899964,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.2,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": -0.699998,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": 0.0,
+                    "m_modB": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerHitbox"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerDashFX",
+                    "path_key": "Resource/Json/PrefabActor/PlayerDashFX.json",
+                    "object_type_key": "Custom",
+                    "scene_actor_name_key": "PlayerDashFX",
+                    "active": false,
+                    "m_Pos.x": 7.499968,
+                    "m_Pos.y": -0.447843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": -1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.699998,
+                    "m_offset.y": 0.05,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerDashFX"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerDoubleJumpFX",
+                    "path_key": "Resource/Json/PrefabActor/PlayerDoubleJumpFX.json",
+                    "object_type_key": "Custom",
+                    "scene_actor_name_key": "PlayerDoubleJumpFX",
+                    "active": false,
+                    "m_Pos.x": 8.199966,
+                    "m_Pos.y": -1.097843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 2.0,
+                    "m_Scale.y": 2.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": -0.6,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerDoubleJumpFX"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerDashDustFX",
+                    "path_key": "Resource/Json/PrefabActor/PlayerDashDustFX.json",
+                    "object_type_key": "Custom",
+                    "scene_actor_name_key": "PlayerDashDustFX",
+                    "active": false,
+                    "m_Pos.x": 7.499968,
+                    "m_Pos.y": -0.397843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": -1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.699998,
+                    "m_offset.y": 0.1,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerDashDustFX"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerDamageFX",
+                    "path_key": "Resource/Json/PrefabActor/PlayerDamageFX.json",
+                    "object_type_key": "Custom",
+                    "scene_actor_name_key": "PlayerDamageFX",
+                    "active": false,
+                    "m_Pos.x": 8.199966,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.5,
+                    "m_Scale.y": 1.5,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerDamageFX"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "LevelEndWord_Level",
+                    "path_key": "Resource/Json/PrefabActor/LevelEndWord_Level.json",
+                    "object_type_key": "Custom",
+                    "scene_actor_name_key": "LevelEndWord_Level",
+                    "active": false,
+                    "m_Pos.x": 9.199966,
+                    "m_Pos.y": 0.252156,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 2.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": -1.0,
+                    "m_offset.y": 0.75,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "LevelEndWord_Level"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "LevelEndWord_Clear",
+                    "path_key": "Resource/Json/PrefabActor/LevelEndWord_Clear.json",
+                    "object_type_key": "Custom",
+                    "scene_actor_name_key": "LevelEndWord_Clear",
+                    "active": false,
+                    "m_Pos.x": 7.199966,
+                    "m_Pos.y": 0.252156,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 1.0,
+                    "m_offset.y": 0.75,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "LevelEndWord_Clear"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "LevelEndWord_LevelClear",
+                    "path_key": "Resource/Json/PrefabActor/LevelEndWord_LevelClear.json",
+                    "object_type_key": "Custom",
+                    "scene_actor_name_key": "LevelEndWord_LevelClear",
+                    "active": false,
+                    "m_Pos.x": 8.199966,
+                    "m_Pos.y": -2.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 0.0,
+                    "m_Scale.y": 0.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": -2.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "LevelEndWord_LevelClear"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "PlayerInvulnFX",
+                    "path_key": "Resource/Json/PrefabActor/PlayerInvulnFX.json",
+                    "object_type_key": "Custom",
+                    "scene_actor_name_key": "PlayerInvulnFX",
+                    "active": false,
+                    "m_Pos.x": 8.199966,
+                    "m_Pos.y": -0.497843,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.5,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 12,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": 0.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "PlayerInvulnFX"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "scene_actor_prefab_type_key": "Saw_Spawner_Right(2)",
+            "path_key": "Resource/Json/PrefabActor/Saw_Spawner_Right(2).json",
+            "object_type_key": "",
+            "scene_actor_name_key": "Saw_Spawner_Right(2)",
+            "active": true,
+            "m_Pos.x": -1.164262,
+            "m_Pos.y": 1.164262,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 1.0,
+            "m_modB": 0.1,
+            "ComponentType": "AudioComponent",
+            "audioMap": [
+                {
+                    "Path": "",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "IDLE"
+                },
+                {
+                    "Path": "Resource/Audio/SawSpawnerShoot.wav",
+                    "Volume": 0.699998,
+                    "Loop": false,
+                    "State": "SHOOT"
+                }
+            ],
+            "child_scene_actor_container": [
+                {
+                    "scene_actor_prefab_type_key": "Saw_Projectile(2)",
+                    "path_key": "Resource/Json/PrefabActor/Saw_Projectile(2).json",
+                    "object_type_key": "Pit_Traps",
+                    "scene_actor_name_key": "Saw1",
+                    "active": true,
+                    "m_Pos.x": 7.935736,
+                    "m_Pos.y": 1.164262,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 1,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": -9.099998,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": -431602080.0,
+                    "m_modB": -431602080.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Saw_Projectile(2)"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "Saw_Projectile(2)",
+                    "path_key": "Resource/Json/PrefabActor/Saw_Projectile(2).json",
+                    "object_type_key": "Pit_Traps",
+                    "scene_actor_name_key": "Saw2",
+                    "active": true,
+                    "m_Pos.x": 1.235737,
+                    "m_Pos.y": 1.164262,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 1,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": -2.399999,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": -431602080.0,
+                    "m_modB": -431602080.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Saw_Projectile(2)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "scene_actor_prefab_type_key": "ColliderBox",
+            "path_key": "Resource/Json/PrefabActor/ColliderBox.json",
+            "object_type_key": "ColliderBox",
+            "scene_actor_name_key": "ColliderBox",
+            "active": true,
+            "m_Pos.x": 4.919054,
+            "m_Pos.y": 7.350625,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0
+        },
+        {
+            "scene_actor_prefab_type_key": "Saw_Spawner_Left(2)",
+            "path_key": "Resource/Json/PrefabActor/Saw_Spawner_Left(2).json",
+            "object_type_key": "Static_Platform",
+            "scene_actor_name_key": "Saw_Spawner_Left",
+            "active": true,
+            "m_Pos.x": 2.18336,
+            "m_Pos.y": -1.725708,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 1.0,
+            "m_modB": 0.1,
+            "ComponentType": "AudioComponent",
+            "audioMap": [
+                {
+                    "Path": "",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "IDLE"
+                },
+                {
+                    "Path": "Resource/Audio/SawSpawnerShoot.wav",
+                    "Volume": 0.699998,
+                    "Loop": false,
+                    "State": "SHOOT"
+                }
+            ],
+            "child_scene_actor_container": [
+                {
+                    "scene_actor_prefab_type_key": "Saw_Projectile(2)",
+                    "path_key": "Resource/Json/PrefabActor/Saw_Projectile(2).json",
+                    "object_type_key": "Pit_Traps",
+                    "scene_actor_name_key": "Saw1",
+                    "active": true,
+                    "m_Pos.x": -0.916639,
+                    "m_Pos.y": -1.725708,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 1,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 3.099999,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": -431602080.0,
+                    "m_modB": -431602080.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Saw_Projectile(2)"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "Saw_Projectile(2)",
+                    "path_key": "Resource/Json/PrefabActor/Saw_Projectile(2).json",
+                    "object_type_key": "Pit_Traps",
+                    "scene_actor_name_key": "Saw2",
+                    "active": false,
+                    "m_Pos.x": -7.616641,
+                    "m_Pos.y": -1.725708,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 1,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 9.800001,
+                    "m_offset.y": 0.0,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": -431602080.0,
+                    "m_modB": -431602080.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Saw_Projectile(2)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "scene_actor_prefab_type_key": "ColliderBox",
+            "path_key": "Resource/Json/PrefabActor/ColliderBox.json",
+            "object_type_key": "ColliderBox",
+            "scene_actor_name_key": "ColliderBox(2)",
+            "active": true,
+            "m_Pos.x": -11.135996,
+            "m_Pos.y": -1.411442,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0
+        },
+        {
+            "scene_actor_prefab_type_key": "Saw_Spawner_Up(2)",
+            "path_key": "Resource/Json/PrefabActor/Saw_Spawner_Up(2).json",
+            "object_type_key": "Static_Platform",
+            "scene_actor_name_key": "Saw_Spawner_Up",
+            "active": true,
+            "m_Pos.x": -2.337553,
+            "m_Pos.y": -3.151921,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 1.0,
+            "m_modB": 0.1,
+            "ComponentType": "AudioComponent",
+            "audioMap": [
+                {
+                    "Path": "",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "IDLE"
+                },
+                {
+                    "Path": "Resource/Audio/SawSpawnerShoot.wav",
+                    "Volume": 0.699998,
+                    "Loop": false,
+                    "State": "SHOOT"
+                }
+            ],
+            "child_scene_actor_container": [
+                {
+                    "scene_actor_prefab_type_key": "Saw_Projectile(2)",
+                    "path_key": "Resource/Json/PrefabActor/Saw_Projectile(2).json",
+                    "object_type_key": "Pit_Traps",
+                    "scene_actor_name_key": "Saw1",
+                    "active": true,
+                    "m_Pos.x": -2.337553,
+                    "m_Pos.y": -0.051921,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 1,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": 3.099999,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": -431602080.0,
+                    "m_modB": -431602080.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Saw_Projectile(2)"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "Saw_Projectile(2)",
+                    "path_key": "Resource/Json/PrefabActor/Saw_Projectile(2).json",
+                    "object_type_key": "Pit_Traps",
+                    "scene_actor_name_key": "Saw2",
+                    "active": false,
+                    "m_Pos.x": -2.337553,
+                    "m_Pos.y": -0.051922,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 1,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": 3.099998,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": -431602080.0,
+                    "m_modB": -431602080.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Saw_Projectile(2)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "scene_actor_prefab_type_key": "ColliderBox",
+            "path_key": "Resource/Json/PrefabActor/ColliderBox.json",
+            "object_type_key": "ColliderBox",
+            "scene_actor_name_key": "ColliderBox(2)(2)",
+            "active": true,
+            "m_Pos.x": -3.791259,
+            "m_Pos.y": -4.846662,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0
+        },
+        {
+            "scene_actor_prefab_type_key": "Saw_Spawner_Down(2)",
+            "path_key": "Resource/Json/PrefabActor/Saw_Spawner_Down(2).json",
+            "object_type_key": "Static_Platform",
+            "scene_actor_name_key": "Saw_Spawner_Down",
+            "active": true,
+            "m_Pos.x": -3.953073,
+            "m_Pos.y": 6.131299,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 1.0,
+            "m_modB": 0.1,
+            "ComponentType": "AudioComponent",
+            "audioMap": [
+                {
+                    "Path": "",
+                    "Volume": 1.0,
+                    "Loop": false,
+                    "State": "IDLE"
+                },
+                {
+                    "Path": "Resource/Audio/SawSpawnerShoot.wav",
+                    "Volume": 0.699998,
+                    "Loop": false,
+                    "State": "SHOOT"
+                }
+            ],
+            "child_scene_actor_container": [
+                {
+                    "scene_actor_prefab_type_key": "Saw_Projectile(2)",
+                    "path_key": "Resource/Json/PrefabActor/Saw_Projectile(2).json",
+                    "object_type_key": "Pit_Traps",
+                    "scene_actor_name_key": "Saw1",
+                    "active": true,
+                    "m_Pos.x": -3.953073,
+                    "m_Pos.y": 3.031299,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 1,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": -3.099999,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": -431602080.0,
+                    "m_modB": -431602080.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Saw_Projectile(2)"
+                        }
+                    ]
+                },
+                {
+                    "scene_actor_prefab_type_key": "Saw_Projectile(2)",
+                    "path_key": "Resource/Json/PrefabActor/Saw_Projectile(2).json",
+                    "object_type_key": "Pit_Traps",
+                    "scene_actor_name_key": "Saw2",
+                    "active": false,
+                    "m_Pos.x": -3.953073,
+                    "m_Pos.y": -3.668702,
+                    "m_Rotate": 0.0,
+                    "m_Scale.x": 1.0,
+                    "m_Scale.y": 1.0,
+                    "Orthogonal_Camera": false,
+                    "Layer": 1,
+                    "m_aabbScale.x": 1.0,
+                    "m_aabbScale.y": 1.0,
+                    "m_offset.x": 0.0,
+                    "m_offset.y": -9.800001,
+                    "m_direction.x": 0.0,
+                    "m_direction.y": 0.0,
+                    "m_startTime": 0.0,
+                    "m_duration": 0.0,
+                    "m_modA": -431602080.0,
+                    "m_modB": -431602080.0,
+                    "scene_actor_tagging": [
+                        {
+                            "scene_actor_tagging_key": "scene_actor_prefab_type_key",
+                            "scene_actor_tagging_value": "Saw_Projectile(2)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "scene_actor_prefab_type_key": "ColliderBox",
+            "path_key": "Resource/Json/PrefabActor/ColliderBox.json",
+            "object_type_key": "ColliderBox",
+            "scene_actor_name_key": "ColliderBox(2)(2)(2)",
+            "active": true,
+            "m_Pos.x": 11.067503,
+            "m_Pos.y": -1.492843,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 10.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0
+        },
+        {
+            "scene_actor_prefab_type_key": "ColliderBox",
+            "path_key": "Resource/Json/PrefabActor/ColliderBox.json",
+            "object_type_key": "ColliderBox",
+            "scene_actor_name_key": "ColliderBox(2)(2)(2)(2)",
+            "active": true,
+            "m_Pos.x": 10.101176,
+            "m_Pos.y": 1.228782,
+            "m_Rotate": 0.0,
+            "m_Scale.x": 1.0,
+            "m_Scale.y": 1.0,
+            "m_aabbScale.x": 1.0,
+            "m_aabbScale.y": 1.0,
+            "m_offset.x": 0.0,
+            "m_offset.y": 0.0,
+            "Orthogonal_Camera": false,
+            "Layer": 0,
+            "m_direction.x": 0.0,
+            "m_direction.y": 0.0,
+            "m_startTime": 0.0,
+            "m_duration": 0.0,
+            "m_modA": 0.0,
+            "m_modB": 0.0
+        }
+    ],
+    "LevelCoordinate": {
+        "global_coordinate_min_x": -8.116641,
+        "global_coordinate_max_x": 12.199966,
+        "global_coordinate_min_y": -4.168702,
+        "global_coordinate_max_y": 6.631299
+    }
+}

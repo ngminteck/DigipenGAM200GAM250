@@ -1,0 +1,22 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/EndOfLevelGlow_Spritesheet.dds",
+        "Sprite_Name": "EndOfLevelGlow_Spritesheet",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "GLOW",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 310,
+                    "h": 380,
+                    "numframes": 12,
+                    "interval": [ 0.025, 0.025, 0.025, 0.025, 0.025, 0.025,
+                                  0.025, 0.025, 0.025, 0.025, 0.025, 0.025 ]
+                }
+            }
+        ]
+    }
+}

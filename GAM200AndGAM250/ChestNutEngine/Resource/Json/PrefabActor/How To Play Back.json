@@ -1,0 +1,46 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "",
+        "prefab_name_key": "How To Play Back",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 640.0,
+                "m_Pos.y": 250.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 150.0,
+                "m_Scale.y": 75.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 640.0,
+                "m_Translate.y": 250.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "PausedMenu_Back_Hover",
+                "Texture_Name": "PausedMenu_Back_Hover",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": true,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "ButtonComponent",
+                "isHovered": false,
+                "Active Texture": "PausedMenu_Back_Hover",
+                "Inactive Texture": "PausedMenu_Back_Normal",
+                "Button ID": 0,
+                "Trigger Type": 2,
+                "Game State": "Resource\\Json\\Level\\Gym.json",
+                "Menu ID": 0,
+                "isMenu": false,
+                "Next Menu": 0,
+                "Section ID": 0,
+                "Icon": -1,
+                "Navigate": "NO AUDIO",
+                "Enter": "NO AUDIO"
+            }
+        ]
+    }
+}

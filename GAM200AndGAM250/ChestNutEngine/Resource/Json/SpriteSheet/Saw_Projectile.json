@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Saw_Spritesheet.dds",
+    "Sprite_Name": "Saw_Projectile",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "Saw_Projectile",
+        "Frame": {
+          "x": 2,
+          "y": 130,
+          "w": 125,
+          "h": 125,
+          "numframes": 6,
+          "interval": [0.016, 0.016, 0.016, 0.016, 0.016, 0.016]
+        }
+      }
+    ]
+  }
+}

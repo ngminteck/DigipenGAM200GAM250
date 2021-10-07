@@ -1,0 +1,32 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/HealthFlame_Spritesheet.dds",
+        "Sprite_Name": "UI_Health",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Health_Idle",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 128,
+                    "h": 128,
+                    "numframes": 11,
+                    "interval": [ 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048]
+                }
+            },
+			{
+                "Texture_Name": "Health_Fade_Out",
+                "Frame": {
+                    "x": 0,
+                    "y": 128,
+                    "w": 128,
+                    "h": 128,
+                    "numframes": 11,
+                    "interval": [ 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048, 0.048]
+                }
+            }
+        ]
+    }
+}

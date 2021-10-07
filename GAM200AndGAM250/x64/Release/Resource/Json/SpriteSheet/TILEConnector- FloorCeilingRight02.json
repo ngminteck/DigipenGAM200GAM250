@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/TILEConnector- FloorCeilingRight02.dds",
+    "Sprite_Name": "TILEConnector- FloorCeilingRight02",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "TILE-FLOORCEILINGRIGHT02",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 104,
+          "h": 103,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/HowToPlayMenu__Keyboard.dds",
+        "Sprite_Name": "HowToPlayMenu__Keyboard",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "HowToPlayMenu__Keyboard",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 665,
+                    "h": 582,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

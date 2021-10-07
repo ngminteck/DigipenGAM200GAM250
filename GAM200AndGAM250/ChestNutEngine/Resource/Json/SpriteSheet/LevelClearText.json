@@ -1,0 +1,54 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/LevelClearText.dds",
+    "Sprite_Name": "LevelClear",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "WORD_LEVELCLEAR",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 544,
+          "h": 87,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "WORD_LEVEL",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 265,
+          "h": 87,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "WORD_CLEAR",
+        "Frame": {
+          "x": 265,
+          "y": 0,
+          "w": 279,
+          "h": 87,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "WORD_PRESSCONTINUE",
+        "Frame": {
+          "x": 0, 
+          "y": 88,
+          "w": 360,
+          "h": 21,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

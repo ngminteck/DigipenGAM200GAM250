@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/UI/HealthBar_Frame.dds",
+    "Sprite_Name": "UIFrame",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "UIFrame",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 581,
+          "h": 157,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

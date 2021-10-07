@@ -1,0 +1,54 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Heliopolis_Tilemap.dds",
+    "Sprite_Name": "SpikeSpritesheet",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+        {
+            "Texture_Name": "SingleSpike",
+            "Frame": {
+                "x": 1,
+                "y": 577,
+                "w": 62,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "SpikeRow",
+            "Frame": {
+                "x": 1,
+                "y": 577,
+                "w": 254,
+                "h": 62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "SingleSpike_Reverse",
+            "Frame": {
+                "x": 1,
+                "y": 639,
+                "w": 62,
+                "h": -62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "SpikeRow_Reverse",
+            "Frame": {
+                "x": 1,
+                "y": 639,
+                "w": 254,
+                "h": -62,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        }
+    ]
+  }
+}

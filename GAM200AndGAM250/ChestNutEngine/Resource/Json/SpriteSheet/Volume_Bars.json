@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Volume_Bars.dds",
+        "Sprite_Name": "Volume_Bars",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Volume_Bars",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 160,
+                    "h": 106,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

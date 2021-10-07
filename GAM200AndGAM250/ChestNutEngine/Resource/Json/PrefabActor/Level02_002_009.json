@@ -1,0 +1,55 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "",
+        "prefab_name_key": "Level02_002_009",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 80.0,
+                "m_Pos.y": -16.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 32.0,
+                "m_Scale.y": 32.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 80.0,
+                "m_Translate.y": -16.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "Level02_002_009",
+                "Texture_Name": "Level02_002_009",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": false,
+                "Layer": 1
+            },
+            {
+                "ComponentType": "RigidBodyComponent",
+                "m_accel.x": 0.0,
+                "m_accel.y": 0.0,
+                "m_counter": 0.0,
+                "m_direction.x": 0.0,
+                "m_direction.y": 0.0,
+                "m_duration": 0.0,
+                "m_gravity": 0.0,
+                "m_hasGravity": false,
+                "m_hitCeiling": false,
+                "m_isMoving": false,
+                "m_isStaticObj": false,
+                "m_mass": 1.0,
+                "m_modA": 0.1,
+                "m_modB": 0.0,
+                "m_modC": 0.0,
+                "m_objType": "BACKGROUND",
+                "m_onGround": false,
+                "m_pushLeft": false,
+                "m_pushRight": false,
+                "m_startTime": 0.0,
+                "m_vel.x": 0.0,
+                "m_vel.y": 0.0
+            }
+        ]
+    }
+}

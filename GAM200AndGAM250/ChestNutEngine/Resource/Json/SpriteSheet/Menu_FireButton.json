@@ -1,0 +1,75 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/Menu_FireButton_Spreadsheet.dds",
+        "Sprite_Name": "Menu_FireButton_Spreadsheet",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Menu_StartButton_Hover",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 300,
+                    "h": 300,
+                    "numframes": 13,
+                    "interval": [
+                        0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064
+                    ]
+                }
+            },
+			{
+                "Texture_Name": "Menu_QuitButton_Hover",
+                "Frame": {
+                    "x": 0,
+                    "y": 300,
+                    "w": 300,
+                    "h": 300,
+                    "numframes": 13,
+                    "interval": [
+                        0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064
+                    ]
+                }
+            },
+			{
+                "Texture_Name": "Menu_OptionButton_Hover",
+                "Frame": {
+                    "x": 0,
+                    "y": 600,
+                    "w": 300,
+                    "h": 300,
+                    "numframes": 13,
+                    "interval": [
+                        0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064
+                    ]
+                }
+            },
+			{
+                "Texture_Name": "Menu_HowToPlayButton_Hover",
+                "Frame": {
+                    "x": 0,
+                    "y": 900,
+                    "w": 300,
+                    "h": 300,
+                    "numframes": 13,
+                    "interval": [
+                        0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064
+                    ]
+                }
+            },
+			{
+                "Texture_Name": "Menu_CreditButton_Hover",
+                "Frame": {
+                    "x": 0,
+                    "y": 1200,
+                    "w": 300,
+                    "h": 300,
+                    "numframes": 13,
+                    "interval": [
+                        0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064, 0.064
+                    ]
+                }
+            }
+        ]
+    }
+}

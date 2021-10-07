@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Level/Level02_001_010.dds",
+        "Sprite_Name": "Level02_001_010",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Level02_001_010",
+                "Frame": {
+                    "x": 1,
+                    "y": 1,
+                    "w": 2046,
+                    "h": 2046,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

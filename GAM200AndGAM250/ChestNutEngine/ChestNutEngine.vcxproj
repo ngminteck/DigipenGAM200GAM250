@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7E364212-62E9-4079-913F-06F7C1ED0698}</ProjectGuid>
+    <RootNamespace>ChestNutEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>..\Dep\Sol;..\Dep\Lua;..\Dep\FreeType\inc;..\Dep\rapidjson\include;..\Dep\imgui;..\Dep\GLEW\inc;..\Dep\GLM\inc;..\Dep\SOIL\inc;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\w.zhijun\Desktop\ChestnutEngine\ChestNutEngine\Dep\GLEW\inc\GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\Dep\GLEW\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);.\Dep\FMOD\api\lowlevel\inc</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;_SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BrowseInformation>true</BrowseInformation>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <EnableModules>false</EnableModules>
+      <AdditionalOptions>/D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>glu32.lib;fmod64_vc.lib;glew32sd.lib;opengl32.lib;freetype64debug.lib;lua-5.3.4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Dep\Lua\lib;..\Dep\GLEW\lib;..\Dep\FreeType\lib;%(AdditionalLibraryDirectories);..\Dep\FMOD\api\lowlevel\lib</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Dep\Sol;..\Dep\Lua;..\Dep\FreeType\inc;..\Dep\rapidjson\include;..\Dep\imgui;..\Dep\GLEW\inc;..\Dep\GLM\inc;..\Dep\SOIL\inc;..\Dep\FMOD\api\studio\inc;..\Dep\FMOD\api\lowlevel\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>GLEW_STATIC;_SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <EnableModules>false</EnableModules>
+      <AdditionalOptions>/D _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\Dep\LUA\lib;..\Dep\GLEW\lib;..\Dep\FreeType\lib;..\Dep\FMOD\api\lowlevel\lib;..\Dep\FMOD\api\studio\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glu32.lib;fmod64_vc.lib;glew32s.lib;opengl32.lib;freetype64release.lib;lua-5.3.4.lib;fmodstudio64_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AABBComponent.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimationSystem.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="AudioComponent.cpp" />
+    <ClCompile Include="AudioSystem.cpp" />
+    <ClCompile Include="BehaviourTree.cpp" />
+    <ClCompile Include="ButtonComponent.cpp" />
+    <ClCompile Include="ButtonFactory.cpp" />
+    <ClCompile Include="ButtonSystem.cpp" />
+    <ClCompile Include="CameraComponent.cpp" />
+    <ClCompile Include="CameraFactory.cpp" />
+    <ClCompile Include="CheckpointComponent.cpp" />
+    <ClCompile Include="CheckpointFactory.cpp" />
+    <ClCompile Include="CheckpointSystem.cpp" />
+    <ClCompile Include="DialogueComponent.cpp" />
+    <ClCompile Include="DialogueFactory.cpp" />
+    <ClCompile Include="DialogueSystem.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="EditorConsole.cpp" />
+    <ClCompile Include="EditorContentBrowser.cpp" />
+    <ClCompile Include="EditorObjectSelector.cpp" />
+    <ClCompile Include="Inspector.cpp" />
+    <ClCompile Include="EditorWorldOutliner.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Force.cpp" />
+    <ClCompile Include="GameStateManager.cpp" />
+    <ClCompile Include="Overthrone.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GraphicsPreprocess.cpp" />
+    <ClCompile Include="GraphicsContainer.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_demo.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_impl_opengl3.cpp" />
+    <ClCompile Include="imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui_stl.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
+    <ClCompile Include="LogicSystem.cpp" />
+    <ClCompile Include="Matrix4x4.cpp" />
+    <ClCompile Include="MovementComponent.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="CollisionComponent.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GraphicsSystem.cpp" />
+    <ClCompile Include="HealthEvent.cpp" />
+    <ClCompile Include="HealthSystem.cpp" />
+    <ClCompile Include="PlayerDies.cpp" />
+    <ClCompile Include="Prefab.cpp" />
+    <ClCompile Include="PrefabEditorWindow.cpp" />
+    <ClCompile Include="QuitGame.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="StatsComponent.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Matrix3x3.cpp" />
+    <ClCompile Include="MeshFactory.cpp" />
+    <ClCompile Include="MoveEvent.cpp" />
+    <ClCompile Include="PerformanceViewer.cpp" />
+    <ClCompile Include="PhysicsSystem.cpp" />
+    <ClCompile Include="PrefabActor.cpp" />
+    <ClCompile Include="PrefabActorFactory.cpp" />
+    <ClCompile Include="ProfileHandler.cpp" />
+    <ClCompile Include="DataFileInfo.cpp" />
+    <ClCompile Include="ResourceFactoryManager.cpp" />
+    <ClCompile Include="RigidBodyComponent.cpp" />
+    <ClCompile Include="SceneActor.cpp" />
+    <ClCompile Include="SceneActorFactory.cpp" />
+    <ClCompile Include="Script.cpp" />
+    <ClCompile Include="ScriptComponent.cpp" />
+    <ClCompile Include="ScriptManager.cpp" />
+    <ClCompile Include="Selection.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="ShaderFactory.cpp" />
+    <ClCompile Include="Shapes.cpp" />
+    <ClCompile Include="SpatialPartition.cpp" />
+    <ClCompile Include="SpriteComponent.cpp" />
+    <ClCompile Include="SpriteFactory.cpp" />
+    <ClCompile Include="SpriteSheetFactory.cpp" />
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="FrameController.cpp" />
+    <ClCompile Include="TransformComponent.cpp" />
+    <ClCompile Include="TransformFactory.cpp" />
+    <ClCompile Include="TransitionSystem.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="Vector3D.cpp" />
+    <ClCompile Include="Vector4D.cpp" />
+    <ClCompile Include="VolumeComponent.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="XBoxInputSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABBComponent.h" />
+    <ClInclude Include="AABBFactory.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationSystem.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="AudioComponent.h" />
+    <ClInclude Include="AudioFactory.h" />
+    <ClInclude Include="AudioSystem.h" />
+    <ClInclude Include="BaseHandler.h" />
+    <ClInclude Include="BehaviourTree.h" />
+    <ClInclude Include="ButtonComponent.h" />
+    <ClInclude Include="ButtonFactory.h" />
+    <ClInclude Include="ButtonSystem.h" />
+    <ClInclude Include="CameraComponent.h" />
+    <ClInclude Include="CameraFactory.h" />
+    <ClInclude Include="CheckpointComponent.h" />
+    <ClInclude Include="CheckpointFactory.h" />
+    <ClInclude Include="CheckpointSystem.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="CommandManager.h" />
+    <ClInclude Include="DamageEvent.h" />
+    <ClInclude Include="DeleteActor.h" />
+    <ClInclude Include="DerivedHandler.h" />
+    <ClInclude Include="DialogueComponent.h" />
+    <ClInclude Include="DialogueFactory.h" />
+    <ClInclude Include="DialogueSystem.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="EditorConsole.h" />
+    <ClInclude Include="EditorContentBrowser.h" />
+    <ClInclude Include="EditorObjectSelector.h" />
+    <ClInclude Include="ActivateFade.h" />
+    <ClInclude Include="RestartLevel.h" />
+    <ClInclude Include="Inspector.h" />
+    <ClInclude Include="GameStateManager.h" />
+    <ClInclude Include="LoadGameState.h" />
+    <ClInclude Include="Overthrone.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GraphicsContainer.h" />
+    <ClInclude Include="GraphicsPreprocess.h" />
+    <ClInclude Include="LoadLevel.h" />
+    <ClInclude Include="PauseGame.h" />
+    <ClInclude Include="PlayAudio.h" />
+    <ClInclude Include="PlayLevel.h" />
+    <ClInclude Include="Prefab.h" />
+    <ClInclude Include="PrefabActor.h" />
+    <ClInclude Include="PerformanceViewer.h" />
+    <ClInclude Include="EditorWorldOutliner.h" />
+    <ClInclude Include="EventHandler.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Force.h" />
+    <ClInclude Include="PrefabEditorWindow.h" />
+    <ClInclude Include="ChangeAudio.h" />
+    <ClInclude Include="PlayerDies.h" />
+    <ClInclude Include="QuitGame.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="StatsFactory.h" />
+    <ClInclude Include="LogicSystem.h" />
+    <ClInclude Include="Matrix4x4.h" />
+    <ClInclude Include="Metadata.h" />
+    <ClInclude Include="MovementComponent.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CollisionComponent.h" />
+    <ClInclude Include="CollisionFactory.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentFactory.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GraphicsSystem.h" />
+    <ClInclude Include="HealthEvent.h" />
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="Matrix3x3.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="HealthSystem.h" />
+    <ClInclude Include="StatsComponent.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputDefines.h" />
+    <ClInclude Include="MainWindow.h" />
+    <ClInclude Include="MeshFactory.h" />
+    <ClInclude Include="MoveEvent.h" />
+    <ClInclude Include="MovementFactory.h" />
+    <ClInclude Include="PhysicsSystem.h" />
+    <ClInclude Include="PrefabActorFactory.h" />
+    <ClInclude Include="ProfileHandler.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="DataFileInfo.h" />
+    <ClInclude Include="ResourceFactory.h" />
+    <ClInclude Include="ResourceFactoryManager.h" />
+    <ClInclude Include="RigidBodyComponent.h" />
+    <ClInclude Include="RigidBodyFactory.h" />
+    <ClInclude Include="SceneActor.h" />
+    <ClInclude Include="SceneActorFactory.h" />
+    <ClInclude Include="Script.h" />
+    <ClInclude Include="ScriptComponent.h" />
+    <ClInclude Include="ScriptFactory.h" />
+    <ClInclude Include="ScriptManager.h" />
+    <ClInclude Include="Selection.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderFactory.h" />
+    <ClInclude Include="Shapes.h" />
+    <ClInclude Include="SpatialPartition.h" />
+    <ClInclude Include="SpriteComponent.h" />
+    <ClInclude Include="SpriteFactory.h" />
+    <ClInclude Include="SpriteSheetFactory.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="SwitchLevelEvent.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="FrameController.h" />
+    <ClInclude Include="ToggleGravity.h" />
+    <ClInclude Include="TransformComponent.h" />
+    <ClInclude Include="TransformFactory.h" />
+    <ClInclude Include="TransitionSystem.h" />
+    <ClInclude Include="TypeErasedObj.h" />
+    <ClInclude Include="UndoMove.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="ValueChange.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Vector3D.h" />
+    <ClInclude Include="Vector4D.h" />
+    <ClInclude Include="VolumeComponent.h" />
+    <ClInclude Include="WinLoseEvent.h" />
+    <ClInclude Include="WinMain.h" />
+    <ClInclude Include="XBoxInputSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragShader.shader" />
+    <None Include="Resource\Json\PrefabActor\Back Button.json" />
+    <None Include="Resource\Json\PrefabActor\BigPunchHitbox.json" />
+    <None Include="Resource\Json\PrefabActor\Black Screen(3).json" />
+    <None Include="Resource\Json\PrefabActor\Black Screen.json" />
+    <None Include="Resource\Json\PrefabActor\Brick BG.json" />
+    <None Include="Resource\Json\PrefabActor\Brick Wall.json" />
+    <None Include="Resource\Json\PrefabActor\Ceiling(2).json" />
+    <None Include="Resource\Json\PrefabActor\Ceiling(3).json" />
+    <None Include="Resource\Json\PrefabActor\Ceiling.json" />
+    <None Include="Resource\Json\PrefabActor\CeilingCornerLeft.json" />
+    <None Include="Resource\Json\PrefabActor\CeilingCornerRight.json" />
+    <None Include="Resource\Json\PrefabActor\Checkpoint_ON.json" />
+    <None Include="Resource\Json\PrefabActor\ConnectorLeft1.json" />
+    <None Include="Resource\Json\PrefabActor\ConnectorLeft2(2).json" />
+    <None Include="Resource\Json\PrefabActor\ConnectorLeft2.json" />
+    <None Include="Resource\Json\PrefabActor\ConnectorRight1(2).json" />
+    <None Include="Resource\Json\PrefabActor\ConnectorRight1(3).json" />
+    <None Include="Resource\Json\PrefabActor\ConnectorRight1.json" />
+    <None Include="Resource\Json\PrefabActor\ConnectorRight2.json" />
+    <None Include="Resource\Json\PrefabActor\Credits Button.json" />
+    <None Include="Resource\Json\PrefabActor\Credits Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\Crumbling_Platform.json" />
+    <None Include="Resource\Json\PrefabActor\Desert Background 2.json" />
+    <None Include="Resource\Json\PrefabActor\Desert Background(2).json" />
+    <None Include="Resource\Json\PrefabActor\Desert Background.json" />
+    <None Include="Resource\Json\PrefabActor\Digipen Logo.json" />
+    <None Include="Resource\Json\PrefabActor\EnemyCounterHitbox.json" />
+    <None Include="Resource\Json\PrefabActor\EnemyDashHitbox.json" />
+    <None Include="Resource\Json\PrefabActor\EnemyHitbox.json" />
+    <None Include="Resource\Json\PrefabActor\Floor.json" />
+    <None Include="Resource\Json\PrefabActor\FloorCornerLeft.json" />
+    <None Include="Resource\Json\PrefabActor\FloorCornerRight.json" />
+    <None Include="Resource\Json\PrefabActor\FloorInner.json" />
+    <None Include="Resource\Json\PrefabActor\FloorInnerLeft.json" />
+    <None Include="Resource\Json\PrefabActor\FloorInnerRight.json" />
+    <None Include="Resource\Json\PrefabActor\Game Title.json" />
+    <None Include="Resource\Json\PrefabActor\Gate(2).json" />
+    <None Include="Resource\Json\PrefabActor\Gate.json" />
+    <None Include="Resource\Json\PrefabActor\HangCornerLeft.json" />
+    <None Include="Resource\Json\PrefabActor\HangCornerRight.json" />
+    <None Include="Resource\Json\PrefabActor\Harm Water 1.json" />
+    <None Include="Resource\Json\PrefabActor\Harm Water 2.json" />
+    <None Include="Resource\Json\PrefabActor\How To Play Button.json" />
+    <None Include="Resource\Json\PrefabActor\How To Play Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\How To Play Menu.json" />
+    <None Include="Resource\Json\PrefabActor\Menu_Background.json" />
+    <None Include="Resource\Json\PrefabActor\Moss BG.json" />
+    <None Include="Resource\Json\PrefabActor\Moss Wall 1.json" />
+    <None Include="Resource\Json\PrefabActor\Moss Wall 2.json" />
+    <None Include="Resource\Json\PrefabActor\Moss Wall 3.json" />
+    <None Include="Resource\Json\PrefabActor\Moving_Platform.json" />
+    <None Include="Resource\Json\PrefabActor\No Button.json" />
+    <None Include="Resource\Json\PrefabActor\No Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\Oneway_Platform.json" />
+    <None Include="Resource\Json\PrefabActor\Pause How To Play Button.json" />
+    <None Include="Resource\Json\PrefabActor\Pause How To Play Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\Pause Menu.json" />
+    <None Include="Resource\Json\PrefabActor\Pause Quit Game Button.json" />
+    <None Include="Resource\Json\PrefabActor\Pause Quit Game Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\Pause Resume Game Button.json" />
+    <None Include="Resource\Json\PrefabActor\Pause Resume Game Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\Pillar1.json" />
+    <None Include="Resource\Json\PrefabActor\Pillar2.json" />
+    <None Include="Resource\Json\PrefabActor\Pillar3.json" />
+    <None Include="Resource\Json\PrefabActor\Pipe.json" />
+    <None Include="Resource\Json\PrefabActor\Pit_Traps(2).json" />
+    <None Include="Resource\Json\PrefabActor\Pit_Traps.json" />
+    <None Include="Resource\Json\PrefabActor\PlayerDashHitbox.json" />
+    <None Include="Resource\Json\PrefabActor\PlayerHitbox.json" />
+    <None Include="Resource\Json\PrefabActor\Quit Game Button.json" />
+    <None Include="Resource\Json\PrefabActor\Quit Game Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\Quit Menu.json" />
+    <None Include="Resource\Json\PrefabActor\Settings Button.json" />
+    <None Include="Resource\Json\PrefabActor\Settings Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\Shelf1.json" />
+    <None Include="Resource\Json\PrefabActor\Shelf2.json" />
+    <None Include="Resource\Json\PrefabActor\Shelf3.json" />
+    <None Include="Resource\Json\PrefabActor\Spikes.json" />
+    <None Include="Resource\Json\PrefabActor\Start Game Button.json" />
+    <None Include="Resource\Json\PrefabActor\Start Game Hover Button.json" />
+    <None Include="Resource\Json\PrefabActor\Static_Platform.json" />
+    <None Include="Resource\Json\PrefabActor\Statue1.json" />
+    <None Include="Resource\Json\PrefabActor\StrongShieldValkyrie(2).json" />
+    <None Include="Resource\Json\PrefabActor\StrongShieldValkyrie.json" />
+    <None Include="Resource\Json\PrefabActor\SurtrSummonPunch.json" />
+    <None Include="Resource\Json\PrefabActor\Surtur.json" />
+    <None Include="Resource\Json\PrefabActor\Switch(5)(2).json" />
+    <None Include="Resource\Json\PrefabActor\Switch(5).json" />
+    <None Include="Resource\Json\PrefabActor\Switch.json" />
+    <None Include="Resource\Json\PrefabActor\Team Logo.json" />
+    <None Include="Resource\Json\PrefabActor\TestBackground.json" />
+    <None Include="Resource\Json\PrefabActor\Timed_Platform.json" />
+    <None Include="Resource\Json\PrefabActor\Tornado_Platform.json" />
+    <None Include="Resource\Json\PrefabActor\UIBall.json" />
+    <None Include="Resource\Json\PrefabActor\UIBarFill.json" />
+    <None Include="Resource\Json\PrefabActor\UIBarStart.json" />
+    <None Include="Resource\Json\PrefabActor\UIFrame.json" />
+    <None Include="Resource\Json\PrefabActor\UIHPLarge.json" />
+    <None Include="Resource\Json\PrefabActor\UIHPSmall.json" />
+    <None Include="Resource\Json\PrefabActor\Valkyrie.json" />
+    <None Include="Resource\Json\PrefabActor\Vase1.json" />
+    <None Include="Resource\Json\PrefabActor\Vase2.json" />
+    <None Include="Resource\Json\PrefabActor\WallLeft.json" />
+    <None Include="Resource\Json\PrefabActor\WallRight.json" />
+    <None Include="Resource\Json\PrefabActor\WeakSnSValkyrie.json" />
+    <None Include="Resource\Json\PrefabActor\WeakSpearValkyrie(2).json" />
+    <None Include="Resource\Json\PrefabActor\WeakSpearValkyrie.json" />
+    <None Include="Resource\Json\PrefabActor\Win Menu.json" />
+    <None Include="Resource\Json\PrefabActor\Window.json" />
+    <None Include="Resource\Json\PrefabActor\Yes Button.json" />
+    <None Include="Resource\Json\PrefabActor\Yes Hover Button.json" />
+    <None Include="vertexShader.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ChestNutEngine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

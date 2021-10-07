@@ -1,0 +1,41 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "BackgroundWithMusic",
+        "prefab_name_key": "Menu Background",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 1280.0,
+                "m_Scale.y": 800.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 640.0,
+                "m_Translate.y": 400.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "MainMenu_BG",
+                "Texture_Name": "MainMenu_BG",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": true,
+                "Layer": 3
+            },
+            {
+                "ComponentType": "AudioComponent",
+                "audioMap": [
+                    {
+                        "Path": "Resource\\Audio\\BGM_MainMenu.wav",
+                        "Volume": 1.0,
+                        "Loop": true,
+                        "State": "IDLE"
+                    }
+                ]
+            }
+        ]
+    }
+}

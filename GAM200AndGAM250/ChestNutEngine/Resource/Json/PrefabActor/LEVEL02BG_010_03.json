@@ -1,0 +1,30 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "",
+        "prefab_name_key": "LEVEL02BG_010_03",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 31.0,
+                "m_Pos.y": -30.5,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 32.0,
+                "m_Scale.y": 21.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 31.0,
+                "m_Translate.y": -30.5,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "LEVEL02BG_010_03",
+                "Texture_Name": "LEVEL02BG_010_03",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": false,
+                "Layer": 10
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/MainMenu_BG.dds",
+        "Sprite_Name": "MainMenu_BG",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "MainMenu_BG",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 1920,
+                    "h": 1080,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

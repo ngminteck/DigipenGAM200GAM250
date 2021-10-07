@@ -1,0 +1,30 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "User_Interface",
+        "prefab_name_key": "Text(57)",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 0.0,
+                "m_Scale.y": 0.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 0.0,
+                "m_Translate.y": 0.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "UIBallIcon",
+                "Texture_Name": "Ball07",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": true,
+                "Layer": 3
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "",
+        "prefab_name_key": "BGM_ManagerBoss",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "AudioComponent"
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "Static_Platform",
+        "prefab_name_key": "Tile_Center",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 1.0,
+                "m_Scale.y": 1.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 0.0,
+                "m_Translate.y": 0.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "Heliopolis_Tilemap",
+                "Texture_Name": "Sandstone_MiddleCenter",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": false,
+                "Layer": 0
+            },
+            {
+                "ComponentType": "AABBComponent",
+                "m_aabbScale.x": 1.0,
+                "m_aabbScale.y": 1.0,
+                "m_max.x": 0.0,
+                "m_max.y": 0.0,
+                "m_min.x": 0.0,
+                "m_min.y": 0.0,
+                "m_offset.x": 0.0,
+                "m_offset.y": 0.0,
+                "m_rect.0.x": 0.0,
+                "m_rect.0.y": 0.0,
+                "m_rect.1.x": 0.0,
+                "m_rect.1.y": 0.0,
+                "m_rect.2.x": 0.0,
+                "m_rect.2.y": 0.0,
+                "m_rect.3.x": 0.0,
+                "m_rect.3.y": 0.0
+            },
+            {
+                "ComponentType": "RigidBodyComponent",
+                "m_accel.x": 0.0,
+                "m_accel.y": 0.0,
+                "m_counter": 0.0,
+                "m_direction.x": 0.0,
+                "m_direction.y": 0.0,
+                "m_duration": 0.0,
+                "m_gravity": 0.0,
+                "m_hasGravity": true,
+                "m_hitCeiling": false,
+                "m_isMoving": false,
+                "m_isStaticObj": true,
+                "m_mass": 1.0,
+                "m_modA": 0.0,
+                "m_modB": 0.0,
+                "m_modC": 0.0,
+                "m_objType": "DEFAULT",
+                "m_onGround": false,
+                "m_pushLeft": false,
+                "m_pushRight": false,
+                "m_startTime": 0.0,
+                "m_vel.x": 0.0,
+                "m_vel.y": 0.0
+            }
+        ]
+    }
+}

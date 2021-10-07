@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/BrickWall_BG.dds",
+    "Sprite_Name": "BrickWall_BG",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "BRICKWALL_BG",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 1022,
+          "h": 510,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

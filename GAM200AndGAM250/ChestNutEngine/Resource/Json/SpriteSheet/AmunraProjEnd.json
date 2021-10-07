@@ -1,0 +1,29 @@
+{
+  "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Boss/ProjectileFire-End_Boss.dds",
+        "Sprite_Name": "AmunraProjEnd",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "AmunraProjEnd",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 200,
+                    "h": 200,
+                    "numframes": 7,
+                    "interval": [
+                        0.08,
+                        0.08,
+                        0.08,
+                        0.08,
+                        0.08,
+                        0.08,
+                        0.08
+                    ]
+                }
+            }
+        ]
+    }
+}

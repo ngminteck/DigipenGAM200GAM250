@@ -1,0 +1,406 @@
+{
+  "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Heliopolis_TilemapInChunks.dds",
+        "Sprite_Name": "Heliopolis_TilemapInChunks",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Sandstone_Top_Two",
+                "Frame": {
+                    "x": 1,
+                    "y": 1,
+                    "w": 126,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Top_Three",
+                "Frame": {
+                    "x": 1,
+                    "y": 1,
+                    "w": 190,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Top_Four",
+                "Frame": {
+                    "x": 1,
+                    "y": 1,
+                    "w": 254,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Top_Six",
+                "Frame": {
+                    "x": 1,
+                    "y": 1,
+                    "w": 382,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Top_Two",
+                "Frame": {
+                    "x": 1,
+                    "y": 65,
+                    "w": 126,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Top_Three",
+                "Frame": {
+                    "x": 1,
+                    "y": 65,
+                    "w": 190,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Top_Four",
+                "Frame": {
+                    "x": 1,
+                    "y": 65,
+                    "w": 254,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Top_Six",
+                "Frame": {
+                    "x": 1,
+                    "y": 65,
+                    "w": 382,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Left_Two",
+                "Frame": {
+                    "x": 1,
+                    "y": 129,
+                    "w": 62,
+                    "h": 126,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Left_Three",
+                "Frame": {
+                    "x": 1,
+                    "y": 129,
+                    "w": 62,
+                    "h": 190,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Left_Four",
+                "Frame": {
+                    "x": 1,
+                    "y": 129,
+                    "w": 62,
+                    "h": 254,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Left_Six",
+                "Frame": {
+                    "x": 1,
+                    "y": 129,
+                    "w": 62,
+                    "h": 382,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Right_Two",
+                "Frame": {
+                    "x": 65,
+                    "y": 129,
+                    "w": 62,
+                    "h": 126,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Right_Three",
+                "Frame": {
+                    "x": 65,
+                    "y": 129,
+                    "w": 62,
+                    "h": 190,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Right_Four",
+                "Frame": {
+                    "x": 65,
+                    "y": 129,
+                    "w": 62,
+                    "h": 254,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Right_Six",
+                "Frame": {
+                    "x": 65,
+                    "y": 129,
+                    "w": 62,
+                    "h": 382,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Left_Two",
+                "Frame": {
+                    "x": 129,
+                    "y": 129,
+                    "w": 62,
+                    "h": 126,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Left_Three",
+                "Frame": {
+                    "x": 129,
+                    "y": 129,
+                    "w": 62,
+                    "h": 190,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Left_Four",
+                "Frame": {
+                    "x": 129,
+                    "y": 129,
+                    "w": 62,
+                    "h": 254,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Left_Six",
+                "Frame": {
+                    "x": 129,
+                    "y": 129,
+                    "w": 62,
+                    "h": 382,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Right_Two",
+                "Frame": {
+                    "x": 193,
+                    "y": 129,
+                    "w": 62,
+                    "h": 126,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Right_Three",
+                "Frame": {
+                    "x": 193,
+                    "y": 129,
+                    "w": 62,
+                    "h": 190,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Right_Four",
+                "Frame": {
+                    "x": 193,
+                    "y": 129,
+                    "w": 62,
+                    "h": 254,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Right_Six",
+                "Frame": {
+                    "x": 193,
+                    "y": 129,
+                    "w": 62,
+                    "h": 382,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Center_TwoByTwo",
+                "Frame": {
+                    "x": 257,
+                    "y": 129,
+                    "w": 126,
+                    "h": 126,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Center_ThreeByThree",
+                "Frame": {
+                    "x": 257,
+                    "y": 129,
+                    "w": 190,
+                    "h": 190,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Center_FourByFour",
+                "Frame": {
+                    "x": 257,
+                    "y": 129,
+                    "w": 254,
+                    "h": 254,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Center_SixBySix",
+                "Frame": {
+                    "x": 257,
+                    "y": 129,
+                    "w": 382,
+                    "h": 382,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Bottom_Two",
+                "Frame": {
+                    "x": 1,
+                    "y": 513,
+                    "w": 126,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Bottom_Three",
+                "Frame": {
+                    "x": 1,
+                    "y": 513,
+                    "w": 190,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Bottom_Four",
+                "Frame": {
+                    "x": 1,
+                    "y": 513,
+                    "w": 254,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Sandstone_Bottom_Six",
+                "Frame": {
+                    "x": 1,
+                    "y": 513,
+                    "w": 382,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Bottom_Two",
+                "Frame": {
+                    "x": 1,
+                    "y": 577,
+                    "w": 126,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Bottom_Three",
+                "Frame": {
+                    "x": 1,
+                    "y": 577,
+                    "w": 190,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Bottom_Four",
+                "Frame": {
+                    "x": 1,
+                    "y": 577,
+                    "w": 254,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "Brick_Bottom_Six",
+                "Frame": {
+                    "x": 1,
+                    "y": 577,
+                    "w": 382,
+                    "h": 62,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            }
+        ]
+    }
+}

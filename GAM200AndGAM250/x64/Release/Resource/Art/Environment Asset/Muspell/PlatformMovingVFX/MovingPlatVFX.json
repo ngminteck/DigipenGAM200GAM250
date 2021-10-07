@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/MovingPlatVFX.dds",
+        "Sprite_Name": "MovingPlatVFX",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "MovingPlatVFX",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 8717,
+                    "h": 366,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

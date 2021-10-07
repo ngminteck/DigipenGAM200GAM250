@@ -1,0 +1,23 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/WhirlwindSpring.dds",
+    "Sprite_Name": "WhirlwindSpring",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "WHIRLWIND_SPRING",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 712,
+          "h": 760,
+          "numframes": 3,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      }
+    ]
+  }
+}

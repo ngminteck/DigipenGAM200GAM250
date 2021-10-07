@@ -1,0 +1,43 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Pillars.dds",
+    "Sprite_Name": "Pillars",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "PILLAR1",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 172,
+          "h": 508,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+	  {
+        "Texture_Name": "PILLAR2",
+        "Frame": {
+          "x": 172,
+          "y": 0,
+          "w": 171,
+          "h": 508,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+	  {
+        "Texture_Name": "PILLAR3",
+        "Frame": {
+          "x": 343,
+          "y": 0,
+          "w": 171,
+          "h": 508,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

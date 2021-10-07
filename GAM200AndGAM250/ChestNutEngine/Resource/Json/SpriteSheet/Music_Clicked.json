@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/Music_Clicked.dds",
+        "Sprite_Name": "Music_Clicked",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "Music_Clicked",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 166,
+                    "h": 168,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

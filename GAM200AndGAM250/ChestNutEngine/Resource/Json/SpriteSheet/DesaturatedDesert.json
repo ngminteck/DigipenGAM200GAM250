@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/DesaturatedDesert.dds",
+    "Sprite_Name": "DesaturatedDesert",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+        {
+            "Texture_Name": "DesaturatedDesert",
+            "Frame": {
+                "x": 0,
+                "y": 0,
+                "w": 1241,
+                "h": 930,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Texture":
+  [
+  	{
+      "Path": "Resource/Art/DDS/SpriteSheet.dds",
+      "AnimationData": "Resource/Json/ResourceData/TextureData/SpriteSheet.json",
+      "Hash": "SpriteSheet"
+    },
+	  {
+      "Path": "Resource/Art/DDS/ValkyrieSpriteSheet.dds",
+      "AnimationData": "Resource/Json/ResourceData/TextureData/ValkyrieSpriteSheet.json",
+      "Hash": "ValkyrieSpriteSheet"
+    },
+	  {
+	    "Path": "Resource/Art/DDS/MuspellTileSpriteSheet.dds",
+	    "AnimationData": "Resource/Json/ResourceData/TextureData/MuspellTileSpriteSheet.json",
+	    "Hash": "MuspellTileSpriteSheet"
+	  },
+    {
+	    "Path": "Resource/Art/DDS/SurturSpriteSheet.dds",
+	    "AnimationData": "Resource/Json/ResourceData/TextureData/SurturSpriteSheet.json",
+	    "Hash": "SurturSpriteSheet"
+	  } 
+  ]
+}

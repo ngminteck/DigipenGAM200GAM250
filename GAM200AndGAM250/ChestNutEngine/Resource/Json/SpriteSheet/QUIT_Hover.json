@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/QUIT_Hover.dds",
+        "Sprite_Name": "QUIT_Hover",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "QUIT_Hover",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 341,
+                    "h": 164,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

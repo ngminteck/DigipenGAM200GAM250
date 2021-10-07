@@ -1,0 +1,31 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/SurtrSummonPunchSpritesheet.dds",
+    "Sprite_Name": "SurtrSummonPunchSpritesheet",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "SurtrSummonPunchSpritesheet",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 345,
+          "h": 136,
+          "numframes": 11,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "Animation":
+  [
+    {
+      "ObjectName": "Player",
+      "Name":  "RIGHT_ATTACK_COMBO_1",
+      "Frame": 
+      {
+        "x":0,
+        "y":0,
+        "w":250,
+        "h":250,
+        "numframes":6,
+        "interval": 0.1666
+      }
+    },    
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_ATTACK_COMBO_1",
+      "Frame": 
+      {
+        "x":250,
+        "y":0,
+        "w":-250,
+        "h":250,
+        "numframes":6,
+        "interval": 0.1666
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "RIGHT_ATTACK_COMBO_2",
+      "Frame": 
+      {
+        "x":0,
+        "y":540,
+        "w":400,
+        "h":250,
+        "numframes":3,
+        "interval": 0.3333
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_ATTACK_COMBO_2",
+      "Frame": 
+      {
+        "x":400,
+        "y":540,
+        "w":-400,
+        "h":250,
+        "numframes":3,
+        "interval": 0.3333
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "RIGHT_GUARD",
+      "Frame": 
+      {
+        "x":0,
+        "y":1000,
+        "w":240,
+        "h":240,
+        "numframes":4,
+        "interval": 0.2
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_GUARD",
+      "Frame": 
+      {
+        "x":240,
+        "y":1000,
+        "w":-240,
+        "h":240,
+        "numframes":4,
+        "interval": 0.2
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "RIGHT_JUMP",
+      "Frame": 
+      {
+        "x":1405,
+        "y":255,
+        "w":300,
+        "h":200,
+        "numframes":2,
+        "interval": 0.5
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_JUMP",
+      "Frame": 
+      {
+        "x":1705,
+        "y":255,
+        "w":-300,
+        "h":200,
+        "numframes":2,
+        "interval": 0.5
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "RIGHT_WALK",
+      "Frame": 
+      {
+        "x":0,
+        "y":795,
+        "w":200,
+        "h":200,
+        "numframes":6,
+        "interval": 0.4
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_WALK",
+      "Frame": 
+      {
+        "x":200,
+        "y":795,
+        "w":-200,
+        "h":200,
+        "numframes": 6,
+        "interval": 0.4
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "RIGHT_IDLE",
+      "Frame": 
+      {
+        "x":0,
+        "y":795,
+        "w":200,
+        "h":200,
+        "numframes":1,
+        "interval": 0
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_IDLE",
+      "Frame": 
+      {
+        "x":200,
+        "y":795,
+        "w":-200,
+        "h":200,
+        "numframes": 1,
+        "interval": 0
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "RIGHT_SPATTACK",
+      "Frame": 
+      {
+        "x":0,
+        "y":255,
+        "w":280,
+        "h":200,
+        "numframes":6,
+        "interval": 0.4
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_SPATTACK",
+      "Frame": 
+      {
+        "x":280,
+        "y":255,
+        "w":-280,
+        "h":200,
+        "numframes": 6,
+        "interval": 0.4 
+      }
+    }    
+  ]
+}

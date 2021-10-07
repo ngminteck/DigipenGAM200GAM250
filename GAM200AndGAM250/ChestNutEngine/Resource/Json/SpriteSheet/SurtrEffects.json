@@ -1,0 +1,136 @@
+{
+  "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/SurtrEffects.dds",
+        "Sprite_Name": "SurtrEffects",
+        "Animated_Texture": true,
+        "Texture_Container": [
+            {
+                "Texture_Name": "VFX_Invulnerability",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 393,
+                    "h": 256,
+                    "numframes": 10,
+                    "interval": [
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064
+                    ]
+                }
+            },
+            {
+                "Texture_Name": "VFX_Dash_Smoke",
+                "Frame": {
+                    "x": 0,
+                    "y": 517,
+                    "w": 393,
+                    "h": 256,
+                    "numframes": 8,
+                    "interval": [
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064
+                    ]
+                }
+            },
+            {
+                "Texture_Name": "VFX_Dash_Effect",
+                "Frame": {
+                    "x": 791,
+                    "y": 775,
+                    "w": 393,
+                    "h": 256,
+                    "numframes": 8,
+                    "interval": [
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064
+                    ]
+                }
+            },
+            {
+                "Texture_Name": "VFX_Double_Jump",
+                "Frame": {
+                    "x": 0,
+                    "y": 1033,
+                    "w": 393,
+                    "h": 256,
+                    "numframes": 7,
+                    "interval": [
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064,
+                        0.064
+                    ]
+                }
+            },
+            {
+                "Texture_Name": "VFX_Damage",
+                "Frame": {
+                    "x": 2766,
+                    "y": 1033,
+                    "w": 393,
+                    "h": 256,
+                    "numframes": 3,
+                    "interval": [
+                        0.064,
+                        0.064,
+                        0.064
+                    ]
+                }
+            },
+            {
+                "Texture_Name": "VFX_Slash",
+                "Frame": {
+                    "x": 1186,
+                    "y": 1291,
+                    "w": 393,
+                    "h": 256,
+                    "numframes": 3,
+                    "interval": [
+                        0.064,
+                        0.064,
+                        0.064
+                    ]
+                }
+            },
+            {
+                "Texture_Name": "VFX_Sword_Slash",
+                "Frame": {
+                    "x": 0,
+                    "y": 1291,
+                    "w": 393,
+                    "h": 256,
+                    "numframes": 3,
+                    "interval": [
+                        0.064,
+                        0.064,
+                        0.064
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/Checkpoint_ON.dds",
+    "Sprite_Name": "Checkpoint_ON",
+    "Animated_Texture" : false,
+    "Texture_Container": [
+      {
+        "Texture_Name": "CHECKPOINT_ON",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 66,
+          "h": 161,
+          "numframes": 1,
+          "interval": [0]
+        }
+      }
+    ]
+  }
+}

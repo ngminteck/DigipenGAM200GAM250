@@ -1,0 +1,96 @@
+{
+  "Animation":
+  [
+    {
+      "ObjectName":  "Background",
+      "Name":  "BG_TEST2",
+      "Frame": 
+      {
+        "x":0,
+        "y":0,
+        "w":2048,
+        "h":894,
+        "numframes":1,
+        "interval": 0
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_IDLE",
+      "Frame": 
+      {
+        "x":0,
+        "y":899,
+        "w":64,
+        "h":64,
+        "numframes":4,
+        "interval": 0.2
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "LEFT_JUMP",
+      "Frame": 
+      {
+        "x":0,
+        "y":1027,
+        "w":64,
+        "h":64,
+        "numframes":4,
+        "interval": 0.4
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "RIGHT_IDLE",
+      "Frame": 
+      {
+        "x":0,
+        "y":1091,
+        "w":64,
+        "h":64,
+        "numframes":4,
+        "interval": 0.2
+      }
+    },
+    {
+      "ObjectName":  "Player",
+      "Name":  "RIGHT_JUMP",
+      "Frame": 
+      {
+        "x":0,
+        "y":1219,
+        "w":64,
+        "h":64,
+        "numframes":4,
+        "interval": 0.4
+      }
+    },
+    {
+      "ObjectName": "Platform",
+      "Name":  "CIRCLE",
+      "Frame": 
+      {
+        "x":0,
+        "y":1278,
+        "w":319,
+        "h":319,
+        "numframes":1,
+        "interval": 0
+      }
+    }, 
+    { 
+      "ObjectName": "Platform2",
+      "Name":  "SWITCH",
+      "Frame": 
+      {
+        "x":256,
+        "y":894,
+        "w":64,
+        "h":64,
+        "numframes":1,
+        "interval": 0
+      }
+    }
+  ]
+}

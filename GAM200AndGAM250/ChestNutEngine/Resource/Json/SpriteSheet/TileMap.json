@@ -1,0 +1,230 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/TileMap.dds",
+        "Sprite_Name": "TileMap",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "TILEMAP",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 320,
+                    "h": 320,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "TOPLEFT",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "TOPCONNECTLEFT",
+                "Frame": {
+                    "x": 64,
+                    "y": 0,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "TOP",
+                "Frame": {
+                    "x": 128,
+                    "y": 0,
+                    "w": 64,
+                    "h": 44,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "TOPCONNECTRIGHT",
+                "Frame": {
+                    "x": 192,
+                    "y": 0,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "TOPRIGHT",
+                "Frame": {
+                    "x": 256,
+                    "y": 0,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "SECONDTOPLEFTCONNECT",
+                "Frame": {
+                    "x": 0,
+                    "y": 64,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "SECONDTOPRIGHTCONNECT",
+                "Frame": {
+                    "x": 256,
+                    "y": 64,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "LEFT",
+                "Frame": {
+                    "x": 0,
+                    "y": 128,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "CENTER",
+                "Frame": {
+                    "x": 128,
+                    "y": 128,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "RIGHT",
+                "Frame": {
+                    "x": 256,
+                    "y": 128,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "SECONDBOTTOMLEFTCONNECT",
+                "Frame": {
+                    "x": 0,
+                    "y": 192,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "SECONDBOTTOMRIGHTCONNECT",
+                "Frame": {
+                    "x": 256,
+                    "y": 192,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "BOTTOMLEFT",
+                "Frame": {
+                    "x": 0,
+                    "y": 256,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "BOTTOMCONNECTLEFT",
+                "Frame": {
+                    "x": 64,
+                    "y": 256,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "BOTTOM",
+                "Frame": {
+                    "x": 128,
+                    "y": 256,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "BOTTOMCONNECTRIGHT",
+                "Frame": {
+                    "x": 192,
+                    "y": 256,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "BOTTOMRIGHT",
+                "Frame": {
+                    "x": 256,
+                    "y": 256,
+                    "w": 64,
+                    "h": 64,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "CENTERFOURCHUNK",
+                "Frame": {
+                    "x": 64,
+                    "y": 64,
+                    "w": 128,
+                    "h": 128,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            },
+            {
+                "Texture_Name": "CENTERNINECHUNK",
+                "Frame": {
+                    "x": 64,
+                    "y": 64,
+                    "w": 192,
+                    "h": 192,
+                    "numframes": 1,
+                    "interval": [ 0 ]
+                }
+            }
+        ]
+    }
+}

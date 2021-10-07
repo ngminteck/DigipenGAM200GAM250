@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/How To Play Dark Button.dds",
+        "Sprite_Name": "How To Play Dark Button",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "How To Play Dark Button",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 3896,
+                    "h": 1888,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

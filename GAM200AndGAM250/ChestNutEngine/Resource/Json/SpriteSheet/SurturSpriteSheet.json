@@ -1,0 +1,318 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/SurturSpriteSheet.dds",
+    "Sprite_Name": "SurturSpriteSheet",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+        {
+            "Texture_Name": "RIGHT_ATTACK1",
+            "Frame": {
+                "x": 0,
+                "y": 0,
+                "w": 250,
+                "h": 250,
+                "numframes": 6,
+                "interval": [
+                    0.1666,
+                    0.1666,
+                    0.1666,
+                    0.1666,
+                    0.1666,
+                    0.1666
+                ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_ATTACK1",
+            "Frame": {
+                "x": 250,
+                "y": 0,
+                "w": -250,
+                "h": 250,
+                "numframes": 6,
+                "interval": [
+                    0.1666,
+                    0.1666,
+                    0.1666,
+                    0.1666,
+                    0.1666,
+                    0.1666
+                ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_ATTACK2",
+            "Frame": {
+                "x": 0,
+                "y": 540,
+                "w": 400,
+                "h": 250,
+                "numframes": 3,
+                "interval": [
+                    0.3333,
+                    0.3333,
+                    0.3333
+                ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_ATTACK2",
+            "Frame": {
+                "x": 400,
+                "y": 540,
+                "w": -400,
+                "h": 250,
+                "numframes": 3,
+                "interval": [
+                    0.3333,
+                    0.3333,
+                    0.3333
+                ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_ATTACK3",
+            "Frame": {
+                "x": 0,
+                "y": 1000,
+                "w": 240,
+                "h": 240,
+                "numframes": 4,
+                "interval": [ 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_ATTACK3",
+            "Frame": {
+                "x": 240,
+                "y": 1000,
+                "w": -240,
+                "h": 240,
+                "numframes": 4,
+                "interval": [ 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_BIGPUNCH",
+            "Frame": {
+                "x": 1405,
+                "y": 255,
+                "w": 300,
+                "h": 200,
+                "numframes": 2,
+                "interval": [ 0.5, 0.5 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_BIGPUNCH",
+            "Frame": {
+                "x": 1705,
+                "y": 255,
+                "w": -300,
+                "h": 200,
+                "numframes": 2,
+                "interval": [ 0.5, 0.5 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DASH",
+            "Frame": {
+                "x": 0,
+                "y": 795,
+                "w": 200,
+                "h": 200,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DASH",
+            "Frame": {
+                "x": 200,
+                "y": 795,
+                "w": -200,
+                "h": 200,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_FALL",
+            "Frame": {
+                "x": 0,
+                "y": 795,
+                "w": 200,
+                "h": 200,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_FALL",
+            "Frame": {
+                "x": 200,
+                "y": 795,
+                "w": -200,
+                "h": 200,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_HURT",
+            "Frame": {
+                "x": 200,
+                "y": 795,
+                "w": -200,
+                "h": 200,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_HURT",
+            "Frame": {
+                "x": 200,
+                "y": 795,
+                "w": -200,
+                "h": 200,
+                "numframes": 1,
+                "interval": [ 0 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_IDLE",
+            "Frame": {
+                "x": 0,
+                "y": 255,
+                "w": 280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_IDLE",
+            "Frame": {
+                "x": 280,
+                "y": 255,
+                "w": -280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_JUMP",
+            "Frame": {
+                "x": 0,
+                "y": 255,
+                "w": 280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_JUMP",
+            "Frame": {
+                "x": 280,
+                "y": 255,
+                "w": -280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_JUMPATTACK",
+            "Frame": {
+                "x": 0,
+                "y": 255,
+                "w": 280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_JUMPATTACK",
+            "Frame": {
+                "x": 280,
+                "y": 255,
+                "w": -280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_LAND",
+            "Frame": {
+                "x": 0,
+                "y": 255,
+                "w": 280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_LAND",
+            "Frame": {
+                "x": 280,
+                "y": 255,
+                "w": -280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_WALK",
+            "Frame": {
+                "x": 0,
+                "y": 255,
+                "w": 280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_WALK",
+            "Frame": {
+                "x": 280,
+                "y": 255,
+                "w": -280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DIE",
+            "Frame": {
+                "x": 280,
+                "y": 255,
+                "w": -280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DIE",
+            "Frame": {
+                "x": 280,
+                "y": 255,
+                "w": -280,
+                "h": 280,
+                "numframes": 6,
+                "interval": [ 0.4, 0.4, 0.4, 0.4, 0.4, 0.4 ]
+            }
+        }
+    ]
+  }
+}

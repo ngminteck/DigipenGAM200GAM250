@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/2b_DestroyAmunRa.dds",
+        "Sprite_Name": "2b_DestroyAmunRa",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "2b_DestroyAmunRa",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 900,
+                    "h": 197,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

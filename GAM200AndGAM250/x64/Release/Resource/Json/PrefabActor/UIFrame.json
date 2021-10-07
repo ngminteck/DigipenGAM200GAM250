@@ -1,0 +1,38 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "User_Interface",
+        "prefab_name_key": "UIFrame",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "UIFrame",
+                "Texture_Name": "UIFrame",
+                "Animated_Texture": false,
+                "Layer": 3
+            },
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 500.0,
+                "m_Scale.y": 250.0,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": 200.0,
+                "m_Translate.y": 675.0,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "ScriptComponent",
+                "Script": [
+                    {
+                        "Path": "Resource/Scripts/UILogic.lua",
+                        "State": "Default"
+                    }
+                ]
+            }
+        ]
+    }
+}

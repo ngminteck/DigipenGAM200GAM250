@@ -1,0 +1,428 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/NewSurtr.dds",
+    "Sprite_Name": "NewSurtr",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+      {
+        "Texture_Name": "LEFT_AIR_ATTACK",
+        "Frame": {
+          "x": 0,
+          "y": 0,
+          "w": 341,
+          "h": 278,
+          "numframes": 9,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_AIR_ATTACK",
+        "Frame": {
+          "x": 341,
+          "y": 0,
+          "w": -341,
+          "h": 278,
+          "numframes": 9,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_ATTACK_1",
+        "Frame": {
+          "x": 0,
+          "y": 278,
+          "w": 341,
+          "h": 278,
+          "numframes": 6,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_ATTACK_1",
+        "Frame": {
+          "x": 341,
+          "y": 278,
+          "w": -341,
+          "h": 278,
+          "numframes": 6,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_ATTACK_2",
+        "Frame": {
+          "x": 0,
+          "y": 556,
+          "w": 341,
+          "h": 278,
+          "numframes": 7,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_ATTACK_2",
+        "Frame": {
+          "x": 341,
+          "y": 556,
+          "w": -341,
+          "h": 278,
+          "numframes": 7,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_ATTACK_3",
+        "Frame": {
+          "x": 0,
+          "y": 834,
+          "w": 341,
+          "h": 278,
+          "numframes": 9,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_ATTACK_3",
+        "Frame": {
+          "x": 341,
+          "y": 834,
+          "w": -341,
+          "h": 278,
+          "numframes": 9,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_BASE",
+        "Frame": {
+          "x": 0,
+          "y": 1112,
+          "w": 341,
+          "h": 278,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_BASE",
+        "Frame": {
+          "x": 341,
+          "y": 1112,
+          "w": -341,
+          "h": 278,
+          "numframes": 1,
+          "interval": [0]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_DASH",
+        "Frame": {
+          "x": 341,
+          "y": 1112,
+          "w": 341,
+          "h": 278,
+          "numframes": 2,
+          "interval": [0.1666,0.1666]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_DASH",
+        "Frame": {
+          "x": 682,
+          "y": 1112,
+          "w": -341,
+          "h": 278,
+          "numframes": 2,
+          "interval": [0.1666,0.1666]
+        }
+      },
+      {
+        "Texture_Name": "LEFT_DEATH",
+        "Frame": {
+          "x": 1023,
+          "y": 1112,
+          "w": 341,
+          "h": 278,
+          "numframes": 9,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+      {
+        "Texture_Name": "RIGHT_DEATH",
+        "Frame": {
+          "x": 1364,
+          "y": 1112,
+          "w": -341,
+          "h": 278,
+          "numframes": 9,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "LEFT_FLINCH",
+        "Frame": {
+          "x": 0,
+          "y": 1390,
+          "w": 341,
+          "h": 278,
+          "numframes": 5,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "RIGHT_FLINCH",
+        "Frame": {
+          "x": 341,
+          "y": 1390,
+          "w": -341,
+          "h": 278,
+          "numframes": 5,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "LEFT_IDLE",
+        "Frame": {
+          "x": 0,
+          "y": 1668,
+          "w": 341,
+          "h": 278,
+          "numframes": 7,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "RIGHT_IDLE",
+        "Frame": {
+          "x": 341,
+          "y": 1668,
+          "w": -341,
+          "h": 278,
+          "numframes": 7,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "LEFT_JUMP_START",
+        "Frame": {
+          "x": 0,
+          "y": 1946,
+          "w": 341,
+          "h": 278,
+          "numframes": 2,
+          "interval": [0.1666,0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "RIGHT_JUMP_START",
+        "Frame": {
+          "x": 341,
+          "y": 1946,
+          "w": -341,
+          "h": 278,
+          "numframes": 2,
+          "interval": [0.1666,0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "LEFT_JUMP_PEAK",
+        "Frame": {
+          "x": 682,
+          "y": 1946,
+          "w": 341,
+          "h": 278,
+          "numframes": 5,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "RIGHT_JUMP_PEAK",
+        "Frame": {
+          "x": 1032,
+          "y": 1946,
+          "w": -341,
+          "h": 278,
+          "numframes": 5,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "LEFT_PUNCH",
+        "Frame": {
+          "x": 0,
+          "y": 2224,
+          "w": 341,
+          "h": 278,
+          "numframes": 10,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "RIGHT_PUNCH",
+        "Frame": {
+          "x": 341,
+          "y": 2224,
+          "w": -341,
+          "h": 278,
+          "numframes": 10,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "LEFT_RUN",
+        "Frame": {
+          "x": 0,
+          "y": 2502,
+          "w": 341,
+          "h": 278,
+          "numframes": 9,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      },
+	  {
+        "Texture_Name": "RIGHT_RUN",
+        "Frame": {
+          "x": 341,
+          "y": 2502,
+          "w": -341,
+          "h": 278,
+          "numframes": 9,
+          "interval": [0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666,
+                       0.1666]
+        }
+      }
+    ]
+  }
+}

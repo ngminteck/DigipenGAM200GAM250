@@ -1,0 +1,23 @@
+{
+    "JsonFileType": "Sprite",
+    "Sprite": {
+        "DDS_Path": "Resource/Art/DDS/UI/K_Icon.dds",
+        "Sprite_Name": "K_Icon",
+        "Animated_Texture": false,
+        "Texture_Container": [
+            {
+                "Texture_Name": "K_Icon",
+                "Frame": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 300,
+                    "h": 300,
+                    "numframes": 1,
+                    "interval": [
+                        0.0
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "JsonFileType": "Prefab",
+    "PrefabActor": {
+        "object_type_key": "Option Back",
+        "prefab_name_key": "Option Back",
+        "active": true,
+        "Component": [
+            {
+                "ComponentType": "TransformComponent",
+                "m_Pos.x": 0.0,
+                "m_Pos.y": 0.0,
+                "m_Rotate": 0.0,
+                "m_Scale.x": 1.5,
+                "m_Scale.y": 0.75,
+                "m_Scale.z": 0.0,
+                "m_Translate.x": -3.5,
+                "m_Translate.y": -2.5,
+                "m_Translate.z": 0.0
+            },
+            {
+                "ComponentType": "SpriteComponent",
+                "Sprite_Name": "Menu_Normal",
+                "Texture_Name": "Menu_Normal",
+                "Animated_Texture": false,
+                "Orthogonal_Camera": true,
+                "Layer": 5
+            },
+            {
+                "ComponentType": "ButtonComponent",
+                "isHovered": false,
+                "Active Texture": "Menu_Hover",
+                "Inactive Texture": "Menu_Normal",
+                "Button ID": 0,
+                "Trigger Type": 2,
+                "Game State": "",
+                "Menu ID": 0,
+                "isMenu": false,
+                "Next Menu": 0,
+                "Section ID": 1,
+                "Icon": -1,
+                "Navigate": "NO AUDIO",
+                "Enter": "NO AUDIO"
+            }
+        ]
+    }
+}

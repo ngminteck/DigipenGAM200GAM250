@@ -1,0 +1,208 @@
+{
+  "JsonFileType": "Sprite",
+  "Sprite": {
+    "DDS_Path": "Resource/Art/DDS/StrongShieldSpriteSheet.dds",
+    "Sprite_Name": "StrongShieldSpriteSheet",
+    "Animated_Texture" : true,
+    "Texture_Container": [
+        {
+            "Texture_Name": "LEFT_BASH",
+            "Frame": {
+                "x": 0,
+                "y": 0,
+                "w": 274,
+                "h": 220,
+                "numframes": 7,
+                "interval": [ 0.05, 0.0, 0.05, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_BASH",
+            "Frame": {
+                "x": 274,
+                "y": 0,
+                "w": -274,
+                "h": 220,
+                "numframes": 7,
+                "interval": [ 0.05, 0.0, 0.05, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DIE",
+            "Frame": {
+                "x": 0,
+                "y": 220,
+                "w": 274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DIE",
+            "Frame": {
+                "x": 274,
+                "y": 220,
+                "w": -274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DIEFADE",
+            "Frame": {
+                "x": 0,
+                "y": 440,
+                "w": 274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DIEFADE",
+            "Frame": {
+                "x": 274,
+                "y": 440,
+                "w": -274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_HURT",
+            "Frame": {
+                "x": 0,
+                "y": 660,
+                "w": 274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_HURT",
+            "Frame": {
+                "x": 274,
+                "y": 660,
+                "w": -274,
+                "h": 220,
+                "numframes": 8,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DASH",
+            "Frame": {
+                "x": 0,
+                "y": 880,
+                "w": 274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DASH",
+            "Frame": {
+                "x": 274,
+                "y": 880,
+                "w": -274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_WALK",
+            "Frame": {
+                "x": 0,
+                "y": 880,
+                "w": 274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_WALK",
+            "Frame": {
+                "x": 274,
+                "y": 880,
+                "w": -274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_IDLE",
+            "Frame": {
+                "x": 0,
+                "y": 880,
+                "w": 274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_IDLE",
+            "Frame": {
+                "x": 274,
+                "y": 880,
+                "w": -274,
+                "h": 220,
+                "numframes": 9,
+                "interval": [ 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_DASHWINDUP",
+            "Frame": {
+                "x": 0,
+                "y": 1100,
+                "w": 274,
+                "h": 220,
+                "numframes": 5,
+                "interval": [ 0.1, 0.1, 0.1, 0.1, 1.6 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_DASHWINDUP",
+            "Frame": {
+                "x": 274,
+                "y": 1100,
+                "w": -274,
+                "h": 220,
+                "numframes": 5,
+                "interval": [ 0.15, 0.15, 0.15, 0.15, 1.4 ]
+            }
+        },
+        {
+            "Texture_Name": "LEFT_HOPBACK",
+            "Frame": {
+                "x": 0,
+                "y": 1100,
+                "w": 274,
+                "h": 220,
+                "numframes": 5,
+                "interval": [ 0.5, 0.5, 0.2, 0.2, 0.2 ]
+            }
+        },
+        {
+            "Texture_Name": "RIGHT_HOPBACK",
+            "Frame": {
+                "x": 274,
+                "y": 1100,
+                "w": -274,
+                "h": 220,
+                "numframes": 5,
+                "interval": [ 0.5, 0.5, 0.2, 0.2, 0.2 ]
+            }
+        }
+    ]
+  }
+}
